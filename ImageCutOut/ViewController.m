@@ -5,6 +5,7 @@
 //  Created by Kseniya Kalyuk Zito on 1/8/14.
 //  Copyright (c) 2014 KZito. All rights reserved.
 //
+//  Cutting out pieces of the image and saving them in the documents directory.
 
 #import "ViewController.h"
 #import "DrawingShapeView.h"
@@ -36,6 +37,7 @@
     
     [self.imageView.layer renderInContext:UIGraphicsGetCurrentContext()];
     
+    //create masked image
     UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     
