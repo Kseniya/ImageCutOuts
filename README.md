@@ -13,5 +13,6 @@ Things to be done:
  - Ability to zoom in the image that's being cut
  - Ability to start over
  - Ability to delete selected piece
+ - Sharing
  - UI!!!!!!
  
