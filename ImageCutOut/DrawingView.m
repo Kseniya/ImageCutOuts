@@ -1,14 +1,14 @@
 //
-//  DrawingShapeView.m
+//  DrawingView.m
 //  FreehandDrawingTut
 //
 //  Created by Kseniya Kalyuk Zito on 1/8/14.
 //
 //
 
-#import "DrawingShapeView.h"
+#import "DrawingView.h"
 
-@implementation DrawingShapeView
+@implementation DrawingView
 {
     CGPoint points[5];
     CGPoint startingPoint;
@@ -23,7 +23,6 @@
         [self.path setLineWidth:2.0];
     }
     return self;
-    
 }
 
 - (id)initWithFrame:(CGRect)frame
