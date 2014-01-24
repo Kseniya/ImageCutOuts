@@ -33,10 +33,13 @@ dispatch_queue_t readWriteQueue;
     if (self = [super init]) {
 
         readWriteQueue = dispatch_queue_create("readWriteQueue", NULL);
+        
+        __block id weakSelf = self;
+        
         dispatch_async(readWriteQueue, ^{
             
-            NSString *thumbPath = [self thumbnailsDirectoryPath];
-            NSString *imagesPath = [self imagesDirectoryPath];
+            NSString *thumbPath = [weakSelf thumbnailsDirectoryPath];
+            NSString *imagesPath = [weakSelf imagesDirectoryPath];
             
             if (![[NSFileManager defaultManager] fileExistsAtPath:thumbPath])
                 [[NSFileManager defaultManager] createDirectoryAtPath:thumbPath withIntermediateDirectories:NO attributes:nil error:nil]; //Create thumbnails folder
@@ -44,7 +47,7 @@ dispatch_queue_t readWriteQueue;
             if (![[NSFileManager defaultManager] fileExistsAtPath:imagesPath])
                 [[NSFileManager defaultManager] createDirectoryAtPath:imagesPath withIntermediateDirectories:NO attributes:nil error:nil]; //Create images folder
             
-            [self updateArrays];
+            [weakSelf updateArrays];
         });
     }
     return self;
@@ -67,24 +70,25 @@ dispatch_queue_t readWriteQueue;
     
     __block BOOL savedTumbnail = NO;
     __block BOOL savedImage = NO;
+    __block id weakSelf = self;
     
     //save image and the thumbnail in "Images" and "Thumbnails" directories
     dispatch_async(readWriteQueue, ^{
-        savedImage = [self saveImageFile:image atPath:imagePath];
+        savedImage = [weakSelf saveImageFile:image atPath:imagePath];
         
         if (savedImage) //if image got saved save thumbnail
         {
-            savedTumbnail = [self saveImageFile:thumbnailImage atPath:thumbnailPath];
+            savedTumbnail = [weakSelf saveImageFile:thumbnailImage atPath:thumbnailPath];
             
             if (savedTumbnail) //if thumbnail got saved, return success true
             {
                 success(savedImage);
-                [self updateArrays];
+                [weakSelf updateArrays];
             }
             else //if thumbnail didn't got saved, delete saved image, return success fail
             {
                 success(savedTumbnail);
-                [self deleteImageFileAtPath:imagePath];
+                [weakSelf deleteImageFileAtPath:imagePath];
             }
         }
         else //if image didn't got saved, return success fail
@@ -120,10 +124,12 @@ dispatch_queue_t readWriteQueue;
 
 - (void)deleteImageAndThumbnailAtIndex:(NSInteger)index success:(void (^)(BOOL))success
 {
+    __block id weakSelf = self;
+    
     dispatch_async(readWriteQueue, ^{
-        [self deleteImageFileAtPath:[self imagePathAtIndex:index]];
-        [self deleteImageFileAtPath:[self thumbnailPathAtIndex:index]];
-        [self updateArrays];
+        [weakSelf deleteImageFileAtPath:[weakSelf imagePathAtIndex:index]];
+        [weakSelf deleteImageFileAtPath:[weakSelf thumbnailPathAtIndex:index]];
+        [weakSelf updateArrays];
         
         success (YES);
     });
