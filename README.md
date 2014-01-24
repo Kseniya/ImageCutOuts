@@ -9,10 +9,9 @@ Final image can be saved to camera roll.
 
 
 Things to be done:
- - Autolayout
+
  - Ability to zoom in the image that's being cut
  - Ability to start over
- - Ability to delete selected piece
  - Sharing
  - UI!!!!!!
  
