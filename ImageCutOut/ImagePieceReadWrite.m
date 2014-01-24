@@ -15,6 +15,8 @@ static NSString * const kImagesDirectory = @"Images";
 
 @implementation ImagePieceReadWrite
 
+dispatch_queue_t readWriteQueue;
+
 //Shared singleton
 + (instancetype)sharedClient {
     static ImagePieceReadWrite *_sharedClient = nil;
@@ -29,48 +31,72 @@ static NSString * const kImagesDirectory = @"Images";
 -(id)init
 {
     if (self = [super init]) {
-        NSString *thumbPath = [self thumbnailsDirectoryPath];
-        NSString *imagesPath = [self imagesDirectoryPath];
-        
-        if (![[NSFileManager defaultManager] fileExistsAtPath:thumbPath])
-            [[NSFileManager defaultManager] createDirectoryAtPath:thumbPath withIntermediateDirectories:NO attributes:nil error:nil]; //Create thumbnails folder
-        
-        if (![[NSFileManager defaultManager] fileExistsAtPath:imagesPath])
-            [[NSFileManager defaultManager] createDirectoryAtPath:imagesPath withIntermediateDirectories:NO attributes:nil error:nil]; //Create images folder
+
+        readWriteQueue = dispatch_queue_create("readWriteQueue", NULL);
+        dispatch_async(readWriteQueue, ^{
+            
+            NSString *thumbPath = [self thumbnailsDirectoryPath];
+            NSString *imagesPath = [self imagesDirectoryPath];
+            
+            if (![[NSFileManager defaultManager] fileExistsAtPath:thumbPath])
+                [[NSFileManager defaultManager] createDirectoryAtPath:thumbPath withIntermediateDirectories:NO attributes:nil error:nil]; //Create thumbnails folder
+            
+            if (![[NSFileManager defaultManager] fileExistsAtPath:imagesPath])
+                [[NSFileManager defaultManager] createDirectoryAtPath:imagesPath withIntermediateDirectories:NO attributes:nil error:nil]; //Create images folder
+            
+            [self updateArrays];
+        });
     }
     return self;
 }
 
-- (void)saveImageAndThumbnail:(CGImageRef)imageRef
+
+# pragma mark Save New Piece Image
+
+- (void)saveImageAndThumbnail:(CGImageRef)imageRef success:(void (^)(BOOL))success
 {
-    //create file paths with date mark
-    NSString *documentsDirectory = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-    NSString *imagesDirectoryPath = [documentsDirectory stringByAppendingPathComponent:kImagesDirectory];
-    NSString *thumbsDirectoryPath = [documentsDirectory stringByAppendingPathComponent:kThumbnailsDirectory];
-    
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
 	[dateFormatter setDateFormat:@"yyyy-MM-dd_HH-mm-ss"];
-    
-    float scale = THUMBNAIL_HEIGHT/[UIImage imageWithCGImage:imageRef].size.height;
-    NSLog(@"%f", scale);
+    NSString *dateMark = [dateFormatter stringFromDate:[NSDate date]];
     
     UIImage *image = [UIImage imageWithCGImage:imageRef];
-    //save image and the thumbnail in "Images" and "Thumbnails" directories
-    [self saveImage:[UIImage imageWithCGImage:imageRef scale:scale orientation:image.imageOrientation] atPath:[thumbsDirectoryPath stringByAppendingFormat:@"/image_%@@2x.png", [dateFormatter stringFromDate:[NSDate date]]]];
-    [self saveImage:image atPath:[imagesDirectoryPath stringByAppendingFormat:@"/image_%@@2x.png", [dateFormatter stringFromDate:[NSDate date]]]];
+    UIImage *thumbnailImage = [self createThumbnailOfImage:image];
     
-}
-
-- (void)saveImage:(UIImage*)pieceImage atPath:(NSString*)path
-{
-    //save image
-    [UIImagePNGRepresentation(pieceImage) writeToFile:path atomically:YES];
+    NSString *imagePath = [[self imagesDirectoryPath] stringByAppendingFormat:@"/image_%@@2x.png", dateMark];
+    NSString *thumbnailPath = [[self thumbnailsDirectoryPath] stringByAppendingFormat:@"/image_%@@2x.png", dateMark];
+    
+    __block BOOL savedTumbnail = NO;
+    __block BOOL savedImage = NO;
+    
+    //save image and the thumbnail in "Images" and "Thumbnails" directories
+    dispatch_async(readWriteQueue, ^{
+        savedImage = [self saveImageFile:image atPath:imagePath];
+        
+        if (savedImage) //if image got saved save thumbnail
+        {
+            savedTumbnail = [self saveImageFile:thumbnailImage atPath:thumbnailPath];
+            
+            if (savedTumbnail) //if thumbnail got saved, return success true
+            {
+                success(savedImage);
+                [self updateArrays];
+            }
+            else //if thumbnail didn't got saved, delete saved image, return success fail
+            {
+                success(savedTumbnail);
+                [self deleteImageFileAtPath:imagePath];
+            }
+        }
+        else //if image didn't got saved, return success fail
+        {
+            success (savedImage);
+        }
+    });
 }
 
 
 -(UIImage*)createThumbnailOfImage:(UIImage*)image
 {
-    
     float scale = THUMBNAIL_HEIGHT/image.size.height;
     float width = image.size.width *scale;
     CGSize newSize = CGSizeMake(width, THUMBNAIL_HEIGHT);
@@ -82,25 +108,91 @@ static NSString * const kImagesDirectory = @"Images";
     return newImage;
 }
 
-- (NSArray*)thumbnailsNames
+
+- (BOOL)saveImageFile:(UIImage*)pieceImage atPath:(NSString*)path
 {
-    NSFileManager *fileManager = [[NSFileManager alloc] init];
-    
-    return [fileManager contentsOfDirectoryAtPath:[self thumbnailsDirectoryPath] error:nil];
+    //save image
+    return [UIImagePNGRepresentation(pieceImage) writeToFile:path atomically:YES];
 }
+
+
+#pragma mark Delete Piece Image
+
+- (void)deleteImageAndThumbnailAtIndex:(NSInteger)index success:(void (^)(BOOL))success
+{
+    dispatch_async(readWriteQueue, ^{
+        [self deleteImageFileAtPath:[self imagePathAtIndex:index]];
+        [self deleteImageFileAtPath:[self thumbnailPathAtIndex:index]];
+        [self updateArrays];
+        
+        success (YES);
+    });
+}
+
+
+- (BOOL)deleteImageFileAtPath:(NSString*)path
+{
+    NSError *error;
+    return [[NSFileManager defaultManager] removeItemAtPath:path error:&error];
+}
+
+
+- (void)updateArrays
+{
+    NSArray *tumbsOldToNew = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:[self thumbnailsDirectoryPath] error:nil];
+    NSArray *imagesOldToNew = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:[self imagesDirectoryPath] error:nil];
+    
+    self.thumbnailsNames = [[tumbsOldToNew reverseObjectEnumerator] allObjects];
+    self.imagesNames = [[imagesOldToNew reverseObjectEnumerator] allObjects];
+    
+    [self compareArrays];
+}
+
+-(void)compareArrays
+{
+    //Make sure all the images and thumbnails are matching
+    if ([self.thumbnailsNames isEqualToArray:self.imagesNames])
+    {
+        NSLog(@"images and thumbnails lists are the SAME");
+    }
+    else
+    {
+        NSLog(@"images and thumbnails lists are DIFFERENT");
+        //DO SOMETHING!!!
+    }
+}
+
 
 - (UIImage*)thumbnailAtIndex:(NSInteger)index
 {
-    NSString* path = [[self thumbnailsDirectoryPath] stringByAppendingPathComponent:self.thumbnailsNames[index]];
-    return [UIImage imageWithContentsOfFile:path];
+    return [UIImage imageWithContentsOfFile:[self thumbnailPathAtIndex:index]];
 }
+
 
 - (UIImage*)imageAtIndex:(NSInteger)index
 {
-    NSString* path = [[self imagesDirectoryPath] stringByAppendingPathComponent:self.thumbnailsNames[index]];
-    return [UIImage imageWithContentsOfFile:path];
+    return [UIImage imageWithContentsOfFile:[self imagePathAtIndex:index]];
 }
 
+
+- (NSString*)thumbnailPathAtIndex:(NSInteger)index
+{
+    if (index < self.thumbnailsNames.count)
+    {
+        return [[self thumbnailsDirectoryPath] stringByAppendingPathComponent:self.thumbnailsNames[index]];
+    }
+    return nil;
+}
+
+
+- (NSString*)imagePathAtIndex:(NSInteger)index
+{
+    if (index < self.imagesNames.count)
+    {
+        return [[self imagesDirectoryPath] stringByAppendingPathComponent:self.imagesNames[index]];
+    }
+    return nil;
+}
 
 #pragma mark Directories Paths
 
@@ -111,6 +203,7 @@ static NSString * const kImagesDirectory = @"Images";
     
     return [documentsDirectory stringByAppendingPathComponent:[NSString stringWithFormat:@"/%@", kThumbnailsDirectory]];
 }
+
 
 - (NSString*)imagesDirectoryPath
 {

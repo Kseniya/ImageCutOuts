@@ -10,12 +10,18 @@
 
 @interface ImagePieceReadWrite : NSObject
 
-+ (instancetype)sharedClient;
-- (void)saveImageAndThumbnail:(CGImageRef)imageRef;
+@property (nonatomic, strong) NSArray *thumbnailsNames;
+@property (nonatomic, strong) NSArray *imagesNames;
 
-- (NSArray*)thumbnailsNames;
++ (instancetype)sharedClient;
+
+- (void)saveImageAndThumbnail:(CGImageRef)imageRef success:(void (^)(BOOL finished))success;
+- (void)deleteImageAndThumbnailAtIndex:(NSInteger)index success:(void (^)(BOOL finished))success;
+
 
 - (UIImage*)thumbnailAtIndex:(NSInteger)index;
 - (UIImage*)imageAtIndex:(NSInteger)index;
+
+
 
 @end

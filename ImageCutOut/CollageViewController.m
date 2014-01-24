@@ -20,6 +20,8 @@
 @property (nonatomic, strong) UIImagePickerController *imagePickerController;
 
 
+- (IBAction)showImagePickerForPhotoPicker:(id)sender;
+- (IBAction)showImagePickerForCamera:(id)sender;
 - (IBAction)menuButtonPressed:(id)sender;
 - (IBAction)save:(id)sender;
 
@@ -41,8 +43,17 @@
     [super viewDidLoad];
 }
 
+- (void)addPieceToCollage:(UIImage *)image
+{
+    [self.collageMakingView addPieceWithImage:image];
+}
 
 #pragma mark UIImagePicker
+
+- (IBAction)showImagePickerForCamera:(id)sender
+{
+    [self showImagePickerForSourceType:UIImagePickerControllerSourceTypeCamera];
+}
 
 - (IBAction)showImagePickerForPhotoPicker:(id)sender
 {
@@ -64,7 +75,7 @@
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
-    self.collageMakingView.backgroundImageView.image = [info valueForKey:UIImagePickerControllerOriginalImage];
+    [self.collageMakingView setBackgroundImageViewWithImage:[info valueForKey:UIImagePickerControllerOriginalImage]];
     [self dismissViewControllerAnimated:YES completion:NULL];
     self.imagePickerController = nil;
     
@@ -80,6 +91,8 @@
 }
 
 
+#pragma mark Button Actions
+
 - (IBAction)menuButtonPressed:(id)sender
 {
     [self.sideMenuViewController menuButtonPressed:sender];
@@ -92,34 +105,34 @@
     }
 }
 
-- (void)addPieceToCollage:(UIImage *)image
-{
-    [self.collageMakingView addPiece:image];
-}
-
-
 - (IBAction)save:(id)sender
 {
     //save final image to camera roll
-    UIImageWriteToSavedPhotosAlbum([self finalCollage], nil, nil, nil);
+    UIImageWriteToSavedPhotosAlbum([self.collageMakingView finalCollage], self, @selector(thisImage:hasBeenSavedInPhotoAlbumWithError:usingContextInfo:), nil);
 }
 
 
-- (UIImage*)finalCollage
-{
-    float scale = [[UIScreen mainScreen] scale];
-    
-    UIGraphicsBeginImageContextWithOptions(self.collageMakingView.bounds.size, NO, scale);
-    
-    [self.collageMakingView.layer renderInContext:UIGraphicsGetCurrentContext()];
-    
-    //create image
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    return image;
+- (void)thisImage:(UIImage *)image hasBeenSavedInPhotoAlbumWithError:(NSError *)error usingContextInfo:(void*)ctxInfo {
+    if (error) {
+        
+        UIAlertView *doneAlert = [[UIAlertView alloc]initWithTitle:nil
+                                                           message:@"Sorry, there was an error while saving your image"
+                                                          delegate:nil
+                                                 cancelButtonTitle:@"OK"
+                                                 otherButtonTitles:nil];
+        [doneAlert show];
+        
+    } else {
+        
+        UIAlertView *doneAlert = [[UIAlertView alloc]initWithTitle:nil
+                                                           message:@"YAAY!! Image have been saved to camera roll"
+                                                          delegate:nil
+                                                 cancelButtonTitle:@"OK"
+                                                 otherButtonTitles:nil];
+        [doneAlert show];
+        
+    }
 }
-
 
 - (void)didReceiveMemoryWarning
 {

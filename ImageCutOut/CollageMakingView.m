@@ -14,8 +14,12 @@
 @property (nonatomic, strong) NSMutableArray* piecesArray;
 @property (nonatomic, strong) CollagePiece *selectedPiece;
 
+@property (nonatomic, strong) UIButton *deleteButton;
 @property (nonatomic, assign) CGFloat lastRotation;
 @property (nonatomic, assign) CGFloat lastScale;
+
+- (void)addGestureRecognizers;
+- (void)deleteSelectedPiece;
 
 @end
 
@@ -30,6 +34,8 @@
         self.backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
         [self addSubview:self.backgroundImageView];
         [self addGestureRecognizers];
+        
+        self.piecesArray = [[NSMutableArray alloc]init];
     }
     return self;
 }
@@ -40,15 +46,17 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundImageView = [[UIImageView alloc]initWithFrame:self.frame];
-        self.backgroundImageView.contentMode = UIViewContentModeScaleAspectFit;
+        self.backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
         [self addSubview:self.backgroundImageView];
         [self addGestureRecognizers];
+        
+        self.piecesArray = [[NSMutableArray alloc]init];
     }
     return self;
 }
 
 
--(void)addGestureRecognizers
+- (void)addGestureRecognizers
 {
     UIPinchGestureRecognizer *pinchRecognizer = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(scale:)];
 	pinchRecognizer.delaysTouchesEnded = NO;
@@ -78,20 +86,80 @@
 	[self addGestureRecognizer:tapRecognizer];
 }
 
-
--(void)addPiece:(UIImage *)image
+- (void)setBackgroundImageViewWithImage:(UIImage*)image
 {
-    if (!self.piecesArray)
+    self.backgroundImageView.image = image;
+    NSLog(@"%f, %f", image.size.width, image.size.height);
+}
+
+-(void)setSelectedPiece:(CollagePiece *)selectedPiece
+{
+    if (selectedPiece != self.selectedPiece)
     {
-        self.piecesArray = [[NSMutableArray alloc]init];
+        //deselect previous
+        if (self.selectedPiece)
+        {
+            self.selectedPiece.layer.borderWidth = 0.0;
+            self.selectedPiece.layer.borderColor = [UIColor clearColor].CGColor;
+        }
+        
+        //select new selected piece
+        _selectedPiece = selectedPiece;
+        self.selectedPiece.layer.borderColor = [UIColor redColor].CGColor;
+        self.selectedPiece.layer.borderWidth = 1.0;
     }
     
+    if (!self.selectedPiece)
+    {
+        [self hideDeleteButton];
+    }
+    else
+    {
+        [self showDeleteButton];
+    }
+}
+
+
+- (void)addPieceWithImage:(UIImage *)image
+{
     CollagePiece *newPiece = [[CollagePiece alloc]initWithImage:image];
     newPiece.bounds = CGRectMake(0.0, 0.0, image.size.width, image.size.height);
     newPiece.center = self.backgroundImageView.center;
     
     [self addSubview:newPiece];
     [self.piecesArray addObject:newPiece];
+}
+
+
+- (void)deleteSelectedPiece
+{
+    if ([self.piecesArray containsObject:self.selectedPiece])
+    {
+        [self.piecesArray removeObject:self.selectedPiece];
+    }
+    [self.selectedPiece removeFromSuperview];
+    self.selectedPiece = nil;
+}
+
+
+- (void)showDeleteButton
+{
+    if (!self.deleteButton)
+    {//if no deleteButton create one
+        self.deleteButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        [self.deleteButton setTitle:@"delete" forState:UIControlStateNormal];
+        self.deleteButton.frame = CGRectMake(self.frame.size.width - 100.0, self.frame.size.height - 50.0, 100.0, 50.0);
+        [self.deleteButton addTarget:self action:@selector(deleteSelectedPiece) forControlEvents:UIControlEventTouchUpInside];
+        [self addSubview:self.deleteButton];
+    }
+    
+    self.deleteButton.hidden = NO;
+}
+
+
+- (void)hideDeleteButton
+{
+    self.deleteButton.hidden = YES;
 }
 
 #pragma mark Gestures
@@ -224,6 +292,17 @@
 }
 
 
+#pragma mark - UIGestureRecognizerDelegate
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
+{
+    if ([touch.view isKindOfClass:[UIButton class]])
+    {
+        return NO;
+    }
+    return YES;
+}
+
+
 - (CollagePiece*)pieceAtLocation:(CGPoint)point {
     
     UIView* view = nil;
@@ -241,5 +320,22 @@
     return (CollagePiece*)view;
 }
 
+
+- (UIImage*)finalCollage
+{
+    self.selectedPiece = nil;
+    
+    float scale = [[UIScreen mainScreen] scale];
+    
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, scale);
+    
+    [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    
+    //create image
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
 
 @end

@@ -12,6 +12,8 @@
 
 @property (nonatomic, strong) UIImageView *backgroundImageView;
 
--(void)addPiece:(UIImage*)image;
+- (void)addPieceWithImage:(UIImage*)image;
+- (void)setBackgroundImageViewWithImage:(UIImage*)image;
+- (UIImage*)finalCollage;
 
 @end

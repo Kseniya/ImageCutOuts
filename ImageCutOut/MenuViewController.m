@@ -46,15 +46,22 @@ static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
     
     //if pieces available show list of them in table view, if not show label saying that there are no pieces
     
+    [self.tableView reloadData];
+    
     if ((self.allPiecesArray)&&(self.allPiecesArray.count >0))
     {
-        [self.tableView reloadData];
         self.noPiecesLbl.hidden = YES;
     }
     else
     {
         self.noPiecesLbl.hidden = NO;
     }
+}
+
+
+- (UIImage*)pieceThumbnailAtIndex:(NSInteger)index
+{
+    return [[ImagePieceReadWrite sharedClient] thumbnailAtIndex:index];
 }
 
 
@@ -70,9 +77,10 @@ static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kMenuTableViewCellIdentifier forIndexPath:indexPath];
     
-    UIImage *pieceImage = [self pieceTumbnailAtIndex:indexPath.row];
+    UIImage *pieceImage = [self pieceThumbnailAtIndex:indexPath.row];
+    cell.backgroundColor = [UIColor clearColor];
     cell.imageView.image = pieceImage;
-    cell.imageView.frame = CGRectMake(10.0, 10.0, pieceImage.size.width, pieceImage.size.height);
+    cell.imageView.bounds = CGRectMake(0.0, 0.0, pieceImage.size.width, pieceImage.size.height);
     
     return cell;
 }
@@ -80,11 +88,12 @@ static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
    
-    UIImage *pieceImage = [self pieceTumbnailAtIndex:indexPath.row];
+    UIImage *pieceImage = [self pieceThumbnailAtIndex:indexPath.row];
     
     return pieceImage.size.height + 20.0;
 }
 
+#pragma mark UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -98,9 +107,17 @@ static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
     }
 }
 
-- (UIImage*)pieceTumbnailAtIndex:(NSInteger)index
-{
-    return [[ImagePieceReadWrite sharedClient] thumbnailAtIndex:index];
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        
+        [[ImagePieceReadWrite sharedClient] deleteImageAndThumbnailAtIndex:indexPath.row success:^(BOOL finished) {
+            
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self updateMenu];
+            });
+            
+        }];
+    }
 }
 
 - (void)didReceiveMemoryWarning

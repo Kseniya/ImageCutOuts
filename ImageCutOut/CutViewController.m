@@ -19,7 +19,9 @@
 
 @property (nonatomic, strong) UIImagePickerController *imagePickerController;
 
--(IBAction)cutOut:(id)sender;
+- (IBAction)cut:(id)sender;
+- (IBAction)done:(id)sender;
+- (IBAction)showImagePickerForPhotoPicker:(id)sender;
 
 @end
 
@@ -31,11 +33,17 @@
 }
 
 
+#pragma mark UIImagePicker
+
+- (IBAction)showImagePickerForCamera:(id)sender
+{
+    [self showImagePickerForSourceType:UIImagePickerControllerSourceTypeCamera];
+}
+
 - (IBAction)showImagePickerForPhotoPicker:(id)sender
 {
     [self showImagePickerForSourceType:UIImagePickerControllerSourceTypePhotoLibrary];
 }
-
 
 - (void)showImagePickerForSourceType:(UIImagePickerControllerSourceType)sourceType
 {
@@ -66,15 +74,50 @@
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
-#pragma mark Cut Image
+#pragma mark Button Actuons
 
-- (IBAction)cutOut:(id)sender
+- (IBAction)cut:(id)sender
 {
     //Save cut out image and its thumbnail
-    [[ImagePieceReadWrite sharedClient] saveImageAndThumbnail:[self createPieceImage].CGImage];
+    [self cutAndSaveImagePiece];
 }
 
--(UIImage *)createPieceImage
+
+- (IBAction)done:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+#pragma mark Cut Image Piece
+
+- (void)cutAndSaveImagePiece
+{
+    [[ImagePieceReadWrite sharedClient] saveImageAndThumbnail:[self createPieceImage].CGImage success:^(BOOL finished) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (finished)
+            {
+                UIAlertView *doneAlert = [[UIAlertView alloc]initWithTitle:nil
+                                                                   message:@"Saved cutted piece"
+                                                                  delegate:nil
+                                                         cancelButtonTitle:@"OK"
+                                                         otherButtonTitles:nil];
+                [doneAlert show];
+            }
+            else
+            {
+                UIAlertView *doneAlert = [[UIAlertView alloc]initWithTitle:nil
+                                                                   message:@"Failed saving cutted piece"
+                                                                  delegate:nil
+                                                         cancelButtonTitle:@"OK"
+                                                         otherButtonTitles:nil];
+                [doneAlert show];
+            }
+        });
+        
+    }];
+}
+
+- (UIImage *)createPieceImage
 {
     float scale = [[UIScreen mainScreen] scale];
     
@@ -97,6 +140,5 @@
     
     return image;
 }
-
 
 @end
