@@ -11,6 +11,11 @@
 #import "CollageMakingView.h"
 #import "MenuViewController.h"
 
+
+@interface CollageViewController (ImagePickerDelegate) <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+
+@end
+
 @interface CollageViewController ()
 
 @property (nonatomic) IBOutlet CollageMakingView *collageMakingView;
@@ -71,26 +76,6 @@
     [self presentViewController:self.imagePickerController animated:YES completion:nil];
 }
 
-#pragma mark - UIImagePickerControllerDelegate
-
-- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
-{
-    [self.collageMakingView setBackgroundImageViewWithImage:[info valueForKey:UIImagePickerControllerOriginalImage]];
-    [self dismissViewControllerAnimated:YES completion:NULL];
-    self.imagePickerController = nil;
-    
-    //Enable touch on collageMakingViee and enable save and menu buttons.
-    self.collageMakingView.userInteractionEnabled = YES;
-    self.saveBtn.enabled = YES;
-    self.menuBtn.enabled = YES;
-}
-
-- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
-{
-    [self dismissViewControllerAnimated:YES completion:NULL];
-}
-
-
 #pragma mark Button Actions
 
 - (IBAction)menuButtonPressed:(id)sender
@@ -138,6 +123,30 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+@end
+
+
+@implementation CollageViewController (ImagePickerDelegate)
+
+#pragma mark - UIImagePickerControllerDelegate
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+    [self.collageMakingView setBackgroundImageViewWithImage:[info valueForKey:UIImagePickerControllerOriginalImage]];
+    [self dismissViewControllerAnimated:YES completion:NULL];
+    self.imagePickerController = nil;
+    
+    //Enable touch on collageMakingViee and enable save and menu buttons.
+    self.collageMakingView.userInteractionEnabled = YES;
+    self.saveBtn.enabled = YES;
+    self.menuBtn.enabled = YES;
+}
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+{
+    [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
 @end

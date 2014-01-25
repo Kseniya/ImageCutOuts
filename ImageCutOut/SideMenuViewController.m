@@ -49,6 +49,7 @@
 	self.mainView.layer.shadowRadius = 2.5f;
 	self.mainView.layer.shadowPath = shadowPath.CGPath;
     
+    
     //starting position, menu closed
     self.menuOpened = NO;
 }

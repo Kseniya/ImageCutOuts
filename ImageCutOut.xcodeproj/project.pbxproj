@@ -27,7 +27,6 @@
 		6E966796187E21F3002705E6 /* ImageCutOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E966795187E21F3002705E6 /* ImageCutOutTests.m */; };
 		6E9667AE187E5795002705E6 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9667AD187E5795002705E6 /* DrawingView.m */; };
 		6E9667B2187E57AC002705E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9667B1187E57AC002705E6 /* QuartzCore.framework */; };
-		6E9E69F1188ECD82006CEBAC /* CollagePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E69F0188ECD82006CEBAC /* CollagePiece.m */; };
 		6E9E6A5D188F1CF6006CEBAC /* collage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E6A58188F1CF6006CEBAC /* collage.png */; };
 		6E9E6A5E188F1CF6006CEBAC /* collage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E6A59188F1CF6006CEBAC /* collage@2x.png */; };
 		6E9E6A5F188F1CF6006CEBAC /* cut.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E6A5A188F1CF6006CEBAC /* cut.png */; };
@@ -38,6 +37,7 @@
 		6E9E6A6A18918467006CEBAC /* shareBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E6A6818918467006CEBAC /* shareBtn.png */; };
 		6E9E6A6B18918467006CEBAC /* shareBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E6A6918918467006CEBAC /* shareBtn@2x.png */; };
 		6EF11F6B188E331D000084DD /* CollageMakingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF11F6A188E331D000084DD /* CollageMakingView.m */; };
+		6EF884B218932D3E00AF740F /* CollagePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF884B118932D3E00AF740F /* CollagePiece.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,8 +81,6 @@
 		6E9667AC187E5795002705E6 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
 		6E9667AD187E5795002705E6 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 		6E9667B1187E57AC002705E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		6E9E69EF188ECD82006CEBAC /* CollagePiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollagePiece.h; sourceTree = "<group>"; };
-		6E9E69F0188ECD82006CEBAC /* CollagePiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollagePiece.m; sourceTree = "<group>"; };
 		6E9E6A58188F1CF6006CEBAC /* collage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collage.png; sourceTree = "<group>"; };
 		6E9E6A59188F1CF6006CEBAC /* collage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "collage@2x.png"; sourceTree = "<group>"; };
 		6E9E6A5A188F1CF6006CEBAC /* cut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cut.png; sourceTree = "<group>"; };
@@ -94,6 +92,8 @@
 		6E9E6A6918918467006CEBAC /* shareBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shareBtn@2x.png"; sourceTree = "<group>"; };
 		6EF11F69188E331D000084DD /* CollageMakingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollageMakingView.h; sourceTree = "<group>"; };
 		6EF11F6A188E331D000084DD /* CollageMakingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollageMakingView.m; sourceTree = "<group>"; };
+		6EF884B018932D3E00AF740F /* CollagePiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollagePiece.h; sourceTree = "<group>"; };
+		6EF884B118932D3E00AF740F /* CollagePiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollagePiece.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +143,8 @@
 				6E9667AD187E5795002705E6 /* DrawingView.m */,
 				6EF11F69188E331D000084DD /* CollageMakingView.h */,
 				6EF11F6A188E331D000084DD /* CollageMakingView.m */,
-				6E9E69EF188ECD82006CEBAC /* CollagePiece.h */,
-				6E9E69F0188ECD82006CEBAC /* CollagePiece.m */,
+				6EF884B018932D3E00AF740F /* CollagePiece.h */,
+				6EF884B118932D3E00AF740F /* CollagePiece.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -348,7 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E9E69F1188ECD82006CEBAC /* CollagePiece.m in Sources */,
+				6EF884B218932D3E00AF740F /* CollagePiece.m in Sources */,
 				6E966781187E21F3002705E6 /* CutViewController.m in Sources */,
 				6E5856F7188E033400708322 /* ImagePieceReadWrite.m in Sources */,
 				6E5856EE188DA28800708322 /* MenuViewController.m in Sources */,

@@ -112,12 +112,10 @@ static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
         
         __block id weakSelf = self;
         
-        [[ImagePieceReadWrite sharedClient] deleteImageAndThumbnailAtIndex:indexPath.row success:^(BOOL finished) {
-            
+        [[ImagePieceReadWrite sharedClient] deleteImageAndThumbnailAtIndex:indexPath.row completion:^(BOOL success) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 [weakSelf updateMenu];
             });
-            
         }];
     }
 }

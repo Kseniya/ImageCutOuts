@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CollageViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+@interface CollageViewController : UIViewController 
 
 - (void) addPieceToCollage:(UIImage*)image;
 

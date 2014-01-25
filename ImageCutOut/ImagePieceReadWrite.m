@@ -8,7 +8,8 @@
 
 #import "ImagePieceReadWrite.h"
 
-#define THUMBNAIL_HEIGHT 100.0
+#define MAX_THUMBNAIL_HEIGHT 100.0
+#define MAX_THUMBNAIL_WIDTH 200.0
 
 static NSString * const kThumbnailsDirectory = @"Thumbnails";
 static NSString * const kImagesDirectory = @"Images";
@@ -56,7 +57,7 @@ dispatch_queue_t readWriteQueue;
 
 # pragma mark Save New Piece Image
 
-- (void)saveImageAndThumbnail:(CGImageRef)imageRef success:(void (^)(BOOL))success
+- (void)saveImageAndThumbnail:(CGImageRef)imageRef completion:(void (^)(BOOL))comletion
 {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
 	[dateFormatter setDateFormat:@"yyyy-MM-dd_HH-mm-ss"];
@@ -82,18 +83,18 @@ dispatch_queue_t readWriteQueue;
             
             if (savedTumbnail) //if thumbnail got saved, return success true
             {
-                success(savedImage);
+                comletion(savedImage);
                 [weakSelf updateArrays];
             }
             else //if thumbnail didn't got saved, delete saved image, return success fail
             {
-                success(savedTumbnail);
+                comletion(savedTumbnail);
                 [weakSelf deleteImageFileAtPath:imagePath];
             }
         }
         else //if image didn't got saved, return success fail
         {
-            success (savedImage);
+            comletion(savedImage);
         }
     });
 }
@@ -101,9 +102,20 @@ dispatch_queue_t readWriteQueue;
 
 -(UIImage*)createThumbnailOfImage:(UIImage*)image
 {
-    float scale = THUMBNAIL_HEIGHT/image.size.height;
+    float scale = 1.0;
+    
+    if (image.size.height > MAX_THUMBNAIL_HEIGHT)
+    {
+        scale = MAX_THUMBNAIL_HEIGHT/image.size.height;
+    }
+    if (image.size.width *scale > MAX_THUMBNAIL_WIDTH)
+    {
+        scale = MAX_THUMBNAIL_WIDTH/image.size.width;
+    }
+    float height = image.size.height *scale;
     float width = image.size.width *scale;
-    CGSize newSize = CGSizeMake(width, THUMBNAIL_HEIGHT);
+    
+    CGSize newSize = CGSizeMake(width, height);
     
     UIGraphicsBeginImageContextWithOptions(newSize, NO, 0.0);
     [image drawInRect:CGRectMake(0, 0, newSize.width, newSize.height)];
@@ -122,7 +134,7 @@ dispatch_queue_t readWriteQueue;
 
 #pragma mark Delete Piece Image
 
-- (void)deleteImageAndThumbnailAtIndex:(NSInteger)index success:(void (^)(BOOL))success
+- (void)deleteImageAndThumbnailAtIndex:(NSInteger)index completion:(void (^)(BOOL))completion
 {
     __block id weakSelf = self;
     
@@ -131,7 +143,7 @@ dispatch_queue_t readWriteQueue;
         [weakSelf deleteImageFileAtPath:[weakSelf thumbnailPathAtIndex:index]];
         [weakSelf updateArrays];
         
-        success (YES);
+        completion(YES);
     });
 }
 

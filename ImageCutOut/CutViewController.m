@@ -92,9 +92,9 @@
 
 - (void)cutAndSaveImagePiece
 {
-    [[ImagePieceReadWrite sharedClient] saveImageAndThumbnail:[self createPieceImage].CGImage success:^(BOOL finished) {
+    [[ImagePieceReadWrite sharedClient] saveImageAndThumbnail:[self createPieceImage].CGImage completion:^(BOOL success) {
         dispatch_async(dispatch_get_main_queue(), ^{
-            if (finished)
+            if (success)
             {
                 UIAlertView *doneAlert = [[UIAlertView alloc]initWithTitle:nil
                                                                    message:@"Saved cutted piece"
@@ -113,7 +113,6 @@
                 [doneAlert show];
             }
         });
-        
     }];
 }
 
