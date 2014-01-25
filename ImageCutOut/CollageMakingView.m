@@ -302,6 +302,15 @@
     return YES;
 }
 
+-(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
+{
+    if ([otherGestureRecognizer isKindOfClass:[UISwipeGestureRecognizer class]])
+    {
+        return YES;
+    }
+    else return NO;
+}
+
 
 - (CollagePiece*)pieceAtLocation:(CGPoint)point {
     

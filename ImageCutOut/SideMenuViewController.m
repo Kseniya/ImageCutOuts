@@ -17,8 +17,6 @@
 @property (strong, nonatomic) IBOutlet UIView *mainView;
 @property (strong, nonatomic) IBOutlet UIView *menuView;
 
-- (void) addMainViewController:(UIViewController *)mainViewController;
-- (void) addMenuViewController:(UIViewController *)menuViewController;
 
 @end
 
@@ -32,6 +30,12 @@
         
     }
     return self;
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    self.menuOpened = NO;
 }
 
 - (void)viewDidLoad
@@ -49,6 +53,9 @@
 	self.mainView.layer.shadowRadius = 2.5f;
 	self.mainView.layer.shadowPath = shadowPath.CGPath;
     
+    UISwipeGestureRecognizer *swipeRecognizer = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipeGesture:)];
+    swipeRecognizer.direction = UISwipeGestureRecognizerDirectionLeft;
+    [self.mainView addGestureRecognizer:swipeRecognizer];
     
     //starting position, menu closed
     self.menuOpened = NO;
@@ -67,53 +74,27 @@
     }
 }
 
-- (void) addMainViewController:(UIViewController *)mainViewController
+
+- (void)openCloseMenuAnimated:(BOOL)animated completion:(void (^)(MenuAnimationType))completion
 {
-    [self addChildViewController:mainViewController];
-	
-	mainViewController.view.frame = CGRectMake(0.0f, 0.0f, self.mainView.frame.size.width, self.mainView.frame.size.height);
-	
-	[self.mainView addSubview:mainViewController.view];
-	
-	if ([mainViewController respondsToSelector:@selector(didMoveToParentViewController:)])
-	{
-		[mainViewController didMoveToParentViewController:self];
-	}
+    [self animateMenuWithDuration:OPEN_DURATION completion:completion];
 }
 
-- (void) addMenuViewController:(UIViewController *)menuViewController
-{
-	[self addChildViewController:menuViewController];
-	[self.menuView addSubview:menuViewController.view];
-	
-	if ([menuViewController respondsToSelector:@selector(didMoveToParentViewController:)])
-	{
-		[menuViewController didMoveToParentViewController:self];
-	}
-}
-
-
-- (void)menuButtonPressed:(id)sender
-{
-	[self animateMenu:sender animationDuration:OPEN_DURATION];
-}
-
-
-- (void)animateMenu:(id)sender animationDuration:(NSTimeInterval)animationDuration
+- (void)animateMenuWithDuration:(NSTimeInterval)animationDuration completion:(void (^)(MenuAnimationType))completion
 {
     //if menu is closed, open it. If open, close
     if (!self.menuOpened)
     {
-        [self openAnimationWithDuration:animationDuration];
+        [self openAnimationWithDuration:animationDuration completion:completion];
     }
     else if (self.menuOpened)
     {
-        [self closeAnimationWithDuration:animationDuration];
+        [self closeAnimationWithDuration:animationDuration completion:completion];
     }
 }
 
 
-- (void) openAnimationWithDuration:(NSTimeInterval)duration
+- (void) openAnimationWithDuration:(NSTimeInterval)duration completion:(void (^)(MenuAnimationType))completion
 {
     [UIView animateWithDuration:duration delay:0.0f options:UIViewAnimationOptionBeginFromCurrentState|UIViewAnimationOptionAllowUserInteraction animations:^
      {
@@ -122,11 +103,16 @@
                      completion:^(BOOL finished)
      {
          self.menuOpened = YES;
+         
+         if (completion)
+         {
+             completion(MenuAnimationTypeOpened);
+         }
      }];
 }
 
 
-- (void)closeAnimationWithDuration:(NSTimeInterval)duration
+- (void)closeAnimationWithDuration:(NSTimeInterval)duration completion:(void (^)(MenuAnimationType))completion
 {
     [UIView animateWithDuration:duration delay:0.0f options:UIViewAnimationOptionBeginFromCurrentState|UIViewAnimationOptionAllowUserInteraction animations:^
      {
@@ -135,6 +121,11 @@
                      completion:^(BOOL finished)
      {
          self.menuOpened = NO;
+         
+         if (completion)
+         {
+             completion(MenuAnimationTypeClosed);
+         }
      }];
 }
 
@@ -143,6 +134,19 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+-(void)handleSwipeGesture:(UIPanGestureRecognizer*)recognizer
+{
+    if (self.menuOpened)
+    {
+        [self closeAnimationWithDuration:OPEN_DURATION completion:^(MenuAnimationType animationType) {
+            NSLog(@"Closed");
+        }];
+    }
+}
+
+
 
 @end
 

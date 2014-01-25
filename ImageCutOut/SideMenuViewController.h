@@ -10,14 +10,20 @@
 
 @interface SideMenuViewController : UIViewController
 
+typedef NS_ENUM(NSInteger, MenuAnimationType) {
+    MenuAnimationTypeOpened,
+    MenuAnimationTypeClosed
+};
+
 @property (nonatomic) IBOutlet UIViewController *mainViewController;
 @property (nonatomic) IBOutlet UIViewController *menuViewController;
 
 @property (assign, nonatomic) BOOL menuOpened;
 
-- (void)menuButtonPressed:(id)sender;
+- (void)openCloseMenuAnimated:(BOOL)animated completion:(void (^)(MenuAnimationType animationType))completion;
 
 @end
+
 
 @interface UIViewController (SideMenuViewController)
 

@@ -80,7 +80,16 @@
 
 - (IBAction)menuButtonPressed:(id)sender
 {
-    [self.sideMenuViewController menuButtonPressed:sender];
+    [self.sideMenuViewController openCloseMenuAnimated:YES completion:^(MenuAnimationType animationType) {
+        if (animationType == MenuAnimationTypeOpened)
+        {
+            NSLog(@"OPENED");
+        }
+        else
+        {
+            NSLog(@"Closed");
+        }
+    }];
     
     //Update Menu
     if ([self.sideMenuViewController.menuViewController isKindOfClass:[MenuViewController class]])

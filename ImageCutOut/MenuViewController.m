@@ -81,7 +81,7 @@ static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
     cell.backgroundColor = [UIColor clearColor];
     cell.imageView.image = pieceImage;
     cell.imageView.bounds = CGRectMake(0.0, 0.0, pieceImage.size.width, pieceImage.size.height);
-    
+        
     return cell;
 }
 
@@ -97,14 +97,19 @@ static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self.sideMenuViewController menuButtonPressed:nil];
     
-    //Add selected piece on collage view
-    if ([self.sideMenuViewController.mainViewController isKindOfClass:[CollageViewController class]])
-    {
-        CollageViewController *collageViewController = (CollageViewController *)self.sideMenuViewController.mainViewController;
-        [collageViewController addPieceToCollage:[[ImagePieceReadWrite sharedClient] imageAtIndex:indexPath.row]];
-    }
+    [self.sideMenuViewController openCloseMenuAnimated:YES completion:^(MenuAnimationType animationType) {
+        
+        if (animationType == MenuAnimationTypeClosed)
+        {
+            //Add selected piece on collage view
+            if ([self.sideMenuViewController.mainViewController isKindOfClass:[CollageViewController class]])
+            {
+                CollageViewController *collageViewController = (CollageViewController *)self.sideMenuViewController.mainViewController;
+                [collageViewController addPieceToCollage:[[ImagePieceReadWrite sharedClient] imageAtIndex:indexPath.row]];
+            }
+        }
+    }];
 }
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
