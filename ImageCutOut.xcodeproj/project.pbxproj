@@ -11,6 +11,14 @@
 		6E5856EE188DA28800708322 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5856ED188DA28800708322 /* MenuViewController.m */; };
 		6E5856F1188DA45500708322 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5856F0188DA45500708322 /* SideMenuViewController.m */; };
 		6E5856F7188E033400708322 /* ImagePieceReadWrite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5856F6188E033400708322 /* ImagePieceReadWrite.m */; };
+		6E80DF141896DCCB001EAC22 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E80DF121896DCCB001EAC22 /* background.png */; };
+		6E80DF151896DCCB001EAC22 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E80DF131896DCCB001EAC22 /* background@2x.png */; };
+		6E80DF181896E3DB001EAC22 /* takePhotoBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E80DF161896E3DB001EAC22 /* takePhotoBtn.png */; };
+		6E80DF191896E3DB001EAC22 /* takePhotoBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E80DF171896E3DB001EAC22 /* takePhotoBtn@2x.png */; };
+		6E80DF1C1896E550001EAC22 /* selectPhotoBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E80DF1A1896E550001EAC22 /* selectPhotoBtn.png */; };
+		6E80DF1D1896E550001EAC22 /* selectPhotoBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E80DF1B1896E550001EAC22 /* selectPhotoBtn@2x.png */; };
+		6E80DF20189700F1001EAC22 /* deleteBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E80DF1E189700F1001EAC22 /* deleteBtn.png */; };
+		6E80DF21189700F1001EAC22 /* deleteBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E80DF1F189700F1001EAC22 /* deleteBtn@2x.png */; };
 		6E96676B187E21F3002705E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E96676A187E21F3002705E6 /* Foundation.framework */; };
 		6E96676D187E21F3002705E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E96676C187E21F3002705E6 /* CoreGraphics.framework */; };
 		6E96676F187E21F3002705E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E96676E187E21F3002705E6 /* UIKit.framework */; };
@@ -59,6 +67,14 @@
 		6E5856F0188DA45500708322 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
 		6E5856F5188E033400708322 /* ImagePieceReadWrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePieceReadWrite.h; sourceTree = "<group>"; };
 		6E5856F6188E033400708322 /* ImagePieceReadWrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePieceReadWrite.m; sourceTree = "<group>"; };
+		6E80DF121896DCCB001EAC22 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		6E80DF131896DCCB001EAC22 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		6E80DF161896E3DB001EAC22 /* takePhotoBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takePhotoBtn.png; sourceTree = "<group>"; };
+		6E80DF171896E3DB001EAC22 /* takePhotoBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takePhotoBtn@2x.png"; sourceTree = "<group>"; };
+		6E80DF1A1896E550001EAC22 /* selectPhotoBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectPhotoBtn.png; sourceTree = "<group>"; };
+		6E80DF1B1896E550001EAC22 /* selectPhotoBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectPhotoBtn@2x.png"; sourceTree = "<group>"; };
+		6E80DF1E189700F1001EAC22 /* deleteBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteBtn.png; sourceTree = "<group>"; };
+		6E80DF1F189700F1001EAC22 /* deleteBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteBtn@2x.png"; sourceTree = "<group>"; };
 		6E966767187E21F3002705E6 /* ImageCutOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCutOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E96676A187E21F3002705E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E96676C187E21F3002705E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -229,6 +245,14 @@
 		6E9E6A57188F1CF6006CEBAC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6E80DF1E189700F1001EAC22 /* deleteBtn.png */,
+				6E80DF1F189700F1001EAC22 /* deleteBtn@2x.png */,
+				6E80DF1A1896E550001EAC22 /* selectPhotoBtn.png */,
+				6E80DF1B1896E550001EAC22 /* selectPhotoBtn@2x.png */,
+				6E80DF161896E3DB001EAC22 /* takePhotoBtn.png */,
+				6E80DF171896E3DB001EAC22 /* takePhotoBtn@2x.png */,
+				6E80DF121896DCCB001EAC22 /* background.png */,
+				6E80DF131896DCCB001EAC22 /* background@2x.png */,
 				6E9E6A6818918467006CEBAC /* shareBtn.png */,
 				6E9E6A6918918467006CEBAC /* shareBtn@2x.png */,
 				6E9E6A62188F1D96006CEBAC /* plus.png */,
@@ -320,14 +344,22 @@
 			files = (
 				6E9E6A5D188F1CF6006CEBAC /* collage.png in Resources */,
 				6E966783187E21F3002705E6 /* Images.xcassets in Resources */,
+				6E80DF141896DCCB001EAC22 /* background.png in Resources */,
+				6E80DF191896E3DB001EAC22 /* takePhotoBtn@2x.png in Resources */,
 				6E9E6A64188F1D96006CEBAC /* plus.png in Resources */,
 				6E9E6A6B18918467006CEBAC /* shareBtn@2x.png in Resources */,
+				6E80DF1D1896E550001EAC22 /* selectPhotoBtn@2x.png in Resources */,
 				6E966775187E21F3002705E6 /* InfoPlist.strings in Resources */,
+				6E80DF21189700F1001EAC22 /* deleteBtn@2x.png in Resources */,
 				6E9E6A61188F1CF6006CEBAC /* license.txt in Resources */,
 				6E9E6A60188F1CF6006CEBAC /* cut@2x.png in Resources */,
 				6E9E6A65188F1D96006CEBAC /* plus@2x.png in Resources */,
+				6E80DF1C1896E550001EAC22 /* selectPhotoBtn.png in Resources */,
 				6E9E6A5F188F1CF6006CEBAC /* cut.png in Resources */,
+				6E80DF181896E3DB001EAC22 /* takePhotoBtn.png in Resources */,
+				6E80DF151896DCCB001EAC22 /* background@2x.png in Resources */,
 				6E96677E187E21F3002705E6 /* Main.storyboard in Resources */,
+				6E80DF20189700F1001EAC22 /* deleteBtn.png in Resources */,
 				6E9E6A5E188F1CF6006CEBAC /* collage@2x.png in Resources */,
 				6E9E6A6A18918467006CEBAC /* shareBtn.png in Resources */,
 			);

@@ -105,7 +105,7 @@
         
         //select new selected piece
         _selectedPiece = selectedPiece;
-        self.selectedPiece.layer.borderColor = [UIColor redColor].CGColor;
+        self.selectedPiece.layer.borderColor = [UIColor whiteColor].CGColor;
         self.selectedPiece.layer.borderWidth = 1.0;
     }
     
@@ -146,11 +146,12 @@
 {
     if (!self.deleteButton)
     {//if no deleteButton create one
-        self.deleteButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-        [self.deleteButton setTitle:@"delete" forState:UIControlStateNormal];
-        self.deleteButton.frame = CGRectMake(self.frame.size.width - 100.0, self.frame.size.height - 50.0, 100.0, 50.0);
+        UIImage *deleteImg = [UIImage imageNamed:@"deleteBtn"];
+        self.deleteButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        [self.deleteButton setImage:deleteImg forState:UIControlStateNormal];
+        self.deleteButton.frame = CGRectMake(self.frame.origin.x + self.frame.size.width - deleteImg.size.width - 10.0, self.frame.origin.y + self.frame.size.height - deleteImg.size.height - 10.0, deleteImg.size.width, deleteImg.size.height);
         [self.deleteButton addTarget:self action:@selector(deleteSelectedPiece) forControlEvents:UIControlEventTouchUpInside];
-        [self addSubview:self.deleteButton];
+        [self.superview addSubview:self.deleteButton];
     }
     
     self.deleteButton.hidden = NO;

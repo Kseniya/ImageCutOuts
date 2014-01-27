@@ -19,8 +19,9 @@
 @interface CollageViewController ()
 
 @property (nonatomic) IBOutlet CollageMakingView *collageMakingView;
-@property (nonatomic) IBOutlet UIBarButtonItem *menuBtn;
-@property (nonatomic) IBOutlet UIBarButtonItem *saveBtn;
+@property (nonatomic) IBOutlet UINavigationBar *navigationBar;
+//@property (nonatomic) IBOutlet UIBarButtonItem *menuBtn;
+//@property (nonatomic) IBOutlet UIBarButtonItem *saveBtn;
 
 @property (nonatomic, strong) UIImagePickerController *imagePickerController;
 
@@ -149,8 +150,9 @@
     
     //Enable touch on collageMakingViee and enable save and menu buttons.
     self.collageMakingView.userInteractionEnabled = YES;
-    self.saveBtn.enabled = YES;
-    self.menuBtn.enabled = YES;
+    self.navigationBar.hidden = NO;
+   // self.saveBtn.enabled = YES;
+   // self.menuBtn.enabled = YES;
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
