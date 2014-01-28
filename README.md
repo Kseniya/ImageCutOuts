@@ -17,3 +17,4 @@ Things to be done:
 
  - Add different shapes for mask cutting
  - Add blank background as an option
+ - Add cute animations!
