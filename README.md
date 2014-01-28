@@ -14,5 +14,6 @@ Things to be done:
  - Sharing
  - UI!!!!!!
  
+
  - Add different shapes for mask cutting
  - Add blank background as an option
