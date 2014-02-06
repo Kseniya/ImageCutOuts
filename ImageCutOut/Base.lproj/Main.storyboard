@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2R9-d3-6FM">
+                            <containerView clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2R9-d3-6FM">
                                 <rect key="frame" x="0.0" y="0.0" width="260" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -24,7 +24,7 @@
                                     <segue destination="VNz-fp-Wad" kind="embed" identifier="menuview_embed" id="chp-TP-fS6"/>
                                 </connections>
                             </containerView>
-                            <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bc1-Gg-Ul7">
+                            <containerView clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bc1-Gg-Ul7">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -122,22 +122,15 @@
                         <viewControllerLayoutGuide type="top" id="T4R-1r-ozl"/>
                         <viewControllerLayoutGuide type="bottom" id="4gy-dD-ThP"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xbp-lb-Y9r">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="xbp-lb-Y9r">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="select a background for your collage" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="hTm-yZ-7gv">
-                                <rect key="frame" x="15" y="70" width="290" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="24"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SN8-v3-dZg">
-                                <rect key="frame" x="0.0" y="110" width="193" height="444"/>
+                                <rect key="frame" x="-20" y="105" width="213" height="454"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" image="takePhotoBtn.png">
+                                <state key="normal" image="takePhotoBtn1.png">
                                     <color key="titleColor" red="0.1333333333" green="0.1176470588" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.1333333333" green="0.1176470588" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -145,8 +138,8 @@
                                     <action selector="showImagePickerForCamera:" destination="iHd-WL-giJ" eventType="touchUpInside" id="tra-1q-lHy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7q0-NY-q3s">
-                                <rect key="frame" x="89" y="352" width="232" height="204"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7q0-NY-q3s">
+                                <rect key="frame" x="91" y="352" width="252" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="TrebuchetMS-Italic" family="Trebuchet MS" pointSize="17"/>
@@ -158,6 +151,13 @@
                                     <action selector="showImagePickerForPhotoPicker:" destination="iHd-WL-giJ" eventType="touchUpInside" id="rfk-jM-KKU"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="select a background for your collage" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="265" translatesAutoresizingMaskIntoConstraints="NO" id="hTm-yZ-7gv">
+                                <rect key="frame" x="28" y="60" width="265" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <navigationBar hidden="YES" contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A1d-bk-E1n">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -194,16 +194,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.97647058823529409" green="0.80000000000000004" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="hTm-yZ-7gv" secondAttribute="centerX" id="3PM-nU-DEj"/>
                             <constraint firstItem="HVe-Zu-CcO" firstAttribute="leading" secondItem="A1d-bk-E1n" secondAttribute="leading" id="6PK-cd-akC"/>
-                            <constraint firstAttribute="centerX" secondItem="SN8-v3-dZg" secondAttribute="centerX" constant="63.5" id="BGT-Da-U00"/>
-                            <constraint firstAttribute="centerY" secondItem="SN8-v3-dZg" secondAttribute="centerY" constant="-48" id="Eej-lf-vdc"/>
-                            <constraint firstAttribute="centerX" secondItem="hTm-yZ-7gv" secondAttribute="centerX" id="HJt-ns-Bg1"/>
+                            <constraint firstItem="SN8-v3-dZg" firstAttribute="leading" secondItem="xbp-lb-Y9r" secondAttribute="leading" constant="-20" id="95w-uS-9SO"/>
+                            <constraint firstAttribute="centerY" secondItem="hTm-yZ-7gv" secondAttribute="centerY" constant="191" id="Ajt-SL-f9N"/>
                             <constraint firstItem="HVe-Zu-CcO" firstAttribute="top" secondItem="xbp-lb-Y9r" secondAttribute="top" constant="64" id="I5r-94-I4V"/>
-                            <constraint firstAttribute="bottom" secondItem="7q0-NY-q3s" secondAttribute="bottom" constant="12" id="PFQ-XD-QeV"/>
+                            <constraint firstItem="7q0-NY-q3s" firstAttribute="leading" secondItem="xbp-lb-Y9r" secondAttribute="leading" constant="91" id="Kl3-Ee-PB5"/>
+                            <constraint firstItem="4gy-dD-ThP" firstAttribute="top" secondItem="7q0-NY-q3s" secondAttribute="bottom" constant="12" id="OQA-t0-PnY"/>
                             <constraint firstAttribute="trailing" secondItem="HVe-Zu-CcO" secondAttribute="trailing" id="Qum-u1-S38"/>
-                            <constraint firstAttribute="centerX" secondItem="7q0-NY-q3s" secondAttribute="centerX" constant="-45" id="RA2-t7-PSQ"/>
-                            <constraint firstAttribute="centerY" secondItem="hTm-yZ-7gv" secondAttribute="centerY" constant="179" id="RoA-00-lgQ"/>
                             <constraint firstItem="HVe-Zu-CcO" firstAttribute="leading" secondItem="xbp-lb-Y9r" secondAttribute="leading" id="Stl-8U-tSJ"/>
+                            <constraint firstItem="4gy-dD-ThP" firstAttribute="top" secondItem="SN8-v3-dZg" secondAttribute="bottom" constant="9" id="dr2-Cb-Ev9"/>
                             <constraint firstItem="HVe-Zu-CcO" firstAttribute="trailing" secondItem="A1d-bk-E1n" secondAttribute="trailing" id="hH2-Rw-6Jo"/>
                             <constraint firstItem="HVe-Zu-CcO" firstAttribute="top" secondItem="A1d-bk-E1n" secondAttribute="bottom" id="iXb-OK-dEW"/>
                             <constraint firstItem="4gy-dD-ThP" firstAttribute="top" secondItem="HVe-Zu-CcO" secondAttribute="bottom" id="oIf-TQ-wSh"/>
@@ -215,6 +215,8 @@
                     <connections>
                         <outlet property="collageMakingView" destination="HVe-Zu-CcO" id="hsE-QT-D30"/>
                         <outlet property="navigationBar" destination="A1d-bk-E1n" id="Y5D-Iq-bVI"/>
+                        <outlet property="selectPhotoBtn" destination="7q0-NY-q3s" id="0yo-i2-u9T"/>
+                        <outlet property="takePhotoBtn" destination="SN8-v3-dZg" id="DZB-Zx-sxX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O1H-gN-q9w" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -288,10 +290,10 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="laP-oI-jTa">
+                            <imageView hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="laP-oI-jTa">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95839495119999996" blue="0.87416815640000001" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <view opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LnX-fR-yXU" customClass="DrawingView">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
@@ -332,10 +334,9 @@
     <resources>
         <image name="cut.png" width="25" height="25"/>
         <image name="plus.png" width="25" height="25"/>
-        <image name="plus.png" width="25" height="25"/>
-        <image name="selectPhotoBtn.png" width="232" height="204"/>
+        <image name="selectPhotoBtn.png" width="252" height="204"/>
         <image name="shareBtn.png" width="19" height="27"/>
-        <image name="takePhotoBtn.png" width="193" height="444"/>
+        <image name="takePhotoBtn1.png" width="213" height="454"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

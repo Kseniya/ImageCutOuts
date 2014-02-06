@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageViewController.m"
-            timestampString = "412541007.028723"
+            timestampString = "413326489.685304"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "-addPieceToCollage:"
             landmarkType = "5">
          </BreakpointContent>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageViewController.m"
-            timestampString = "412541007.028723"
+            timestampString = "413326489.685304"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "@implementation CollageViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageViewController.m"
-            timestampString = "412541007.028723"
+            timestampString = "413326489.685304"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "@implementation CollageViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -186,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412549319.424044"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "163"
@@ -202,7 +202,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412549319.424044"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "157"
@@ -218,7 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412549319.424044"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "155"
@@ -234,7 +234,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412549319.424044"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "154"
@@ -250,7 +250,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412549319.424044"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "151"
@@ -266,7 +266,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412549319.424044"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "150"
@@ -282,7 +282,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412298580.796432"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "147"
@@ -362,7 +362,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412298580.796432"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "136"
@@ -378,7 +378,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412298580.796432"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "137"
@@ -394,7 +394,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412298580.796432"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "138"
@@ -410,7 +410,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412298580.796432"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "139"
@@ -426,7 +426,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412298580.796432"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "140"
@@ -442,7 +442,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412298580.796432"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "141"
@@ -458,7 +458,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412549319.424044"
+            timestampString = "413001893.408598"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "299"
@@ -474,7 +474,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412549319.424044"
+            timestampString = "413001893.408598"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "300"
@@ -490,7 +490,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412549319.424044"
+            timestampString = "413001893.408598"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "301"
@@ -506,7 +506,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412549319.424044"
+            timestampString = "413001893.408598"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "302"
@@ -522,7 +522,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412549319.424044"
+            timestampString = "413001893.408598"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "303"
@@ -570,7 +570,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/CollageMakingView.m"
-            timestampString = "412298580.796432"
+            timestampString = "413001848.949181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "130"
@@ -586,7 +586,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "192"
@@ -602,7 +602,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "193"
@@ -618,7 +618,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "194"
@@ -634,7 +634,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "195"
@@ -650,7 +650,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "213"
@@ -666,7 +666,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "209"
@@ -682,7 +682,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "230"
@@ -698,7 +698,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "231"
@@ -714,7 +714,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "233"
@@ -730,7 +730,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "143"
@@ -746,7 +746,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "143"
@@ -762,7 +762,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
@@ -778,7 +778,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
@@ -794,119 +794,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "-saveImageAndThumbnail:completion:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
-            landmarkName = "-saveImageAndThumbnail:completion:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
-            landmarkName = "@implementation ImagePieceReadWrite"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
-            landmarkName = "@implementation ImagePieceReadWrite"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
-            landmarkName = "-deleteImageFileAtPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
-            landmarkName = "-deleteImageFileAtPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
-            landmarkName = "-deleteImageAndThumbnailAtIndex:completion:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "72"
@@ -922,7 +810,119 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "-saveImageAndThumbnail:completion:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImageCutOut/ImagePieceReadWrite.m"
+            timestampString = "412999508.273527"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "@implementation ImagePieceReadWrite"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImageCutOut/ImagePieceReadWrite.m"
+            timestampString = "412999508.273527"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "@implementation ImagePieceReadWrite"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImageCutOut/ImagePieceReadWrite.m"
+            timestampString = "412999508.273527"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "-deleteImageFileAtPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImageCutOut/ImagePieceReadWrite.m"
+            timestampString = "412999508.273527"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "-deleteImageFileAtPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImageCutOut/ImagePieceReadWrite.m"
+            timestampString = "412999508.273527"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "-deleteImageAndThumbnailAtIndex:completion:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImageCutOut/ImagePieceReadWrite.m"
+            timestampString = "412999508.273527"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "-saveImageAndThumbnail:completion:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImageCutOut/ImagePieceReadWrite.m"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
@@ -938,7 +938,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "82"
@@ -954,7 +954,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "83"
@@ -970,7 +970,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "85"
@@ -986,7 +986,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "86"
@@ -1002,7 +1002,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "88"
@@ -1018,7 +1018,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "87"
@@ -1034,7 +1034,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "91"
@@ -1050,7 +1050,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "92"
@@ -1066,7 +1066,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "97"
@@ -1082,7 +1082,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/ImagePieceReadWrite.m"
-            timestampString = "412293686.978419"
+            timestampString = "412999508.273527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "80"
@@ -1274,7 +1274,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/SideMenuViewController.m"
-            timestampString = "412536371.594398"
+            timestampString = "412562702.879145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "101"
@@ -1290,7 +1290,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/SideMenuViewController.m"
-            timestampString = "412536371.594398"
+            timestampString = "412562702.879145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "101"
@@ -1306,7 +1306,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/SideMenuViewController.m"
-            timestampString = "412536371.594398"
+            timestampString = "412562849.071107"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "102"
@@ -1321,12 +1321,12 @@
                   symbolName = "__63-[SideMenuViewController openAnimationWithDuration:completion:]_block_invoke"
                   moduleName = "ImageCutOut"
                   urlString = "file:///Users/Kseniya/Documents/Work/ImageCutOut/ImageCutOut/SideMenuViewController.m"
-                  timestampString = "412555738.38893"
+                  timestampString = "413329922.162383"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "102"
                   endingLineNumber = "102"
-                  offsetFromSymbolStart = "308">
+                  offsetFromSymbolStart = "548">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -1335,12 +1335,26 @@
                   symbolName = "__copy_helper_block_"
                   moduleName = "ImageCutOut"
                   urlString = "file:///Users/Kseniya/Documents/Work/ImageCutOut/ImageCutOut/SideMenuViewController.m"
-                  timestampString = "412555738.389138"
+                  timestampString = "413329922.162762"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "102"
                   endingLineNumber = "102"
-                  offsetFromSymbolStart = "24">
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_"
+                  moduleName = "ImageCutOut"
+                  urlString = "file:///Users/Kseniya/Documents/Work/ImageCutOut/ImageCutOut/SideMenuViewController.m"
+                  timestampString = "413329922.16313"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "17">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1352,7 +1366,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ImageCutOut/SideMenuViewController.m"
-            timestampString = "412536371.594398"
+            timestampString = "412562702.879145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "101"

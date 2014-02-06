@@ -19,6 +19,9 @@
 		6E80DF1D1896E550001EAC22 /* selectPhotoBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E80DF1B1896E550001EAC22 /* selectPhotoBtn@2x.png */; };
 		6E80DF20189700F1001EAC22 /* deleteBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E80DF1E189700F1001EAC22 /* deleteBtn.png */; };
 		6E80DF21189700F1001EAC22 /* deleteBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E80DF1F189700F1001EAC22 /* deleteBtn@2x.png */; };
+		6E80E281189C6917001EAC22 /* takePhotoBtn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E80E27F189C6917001EAC22 /* takePhotoBtn1.png */; };
+		6E80E282189C6917001EAC22 /* takePhotoBtn1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E80E280189C6917001EAC22 /* takePhotoBtn1@2x.png */; };
+		6E80E285189D7A23001EAC22 /* MySHKConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E80E284189D7A23001EAC22 /* MySHKConfiguration.m */; };
 		6E96676B187E21F3002705E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E96676A187E21F3002705E6 /* Foundation.framework */; };
 		6E96676D187E21F3002705E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E96676C187E21F3002705E6 /* CoreGraphics.framework */; };
 		6E96676F187E21F3002705E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E96676E187E21F3002705E6 /* UIKit.framework */; };
@@ -44,8 +47,21 @@
 		6E9E6A65188F1D96006CEBAC /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E6A63188F1D96006CEBAC /* plus@2x.png */; };
 		6E9E6A6A18918467006CEBAC /* shareBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E6A6818918467006CEBAC /* shareBtn.png */; };
 		6E9E6A6B18918467006CEBAC /* shareBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E6A6918918467006CEBAC /* shareBtn@2x.png */; };
+		6ECAE61C18A2C1ED008367A8 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAE61B18A2C1ED008367A8 /* ShareView.m */; };
+		6ECAE61F18A2CA88008367A8 /* UIImage+ImageBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAE61E18A2CA88008367A8 /* UIImage+ImageBlur.m */; };
+		6ECAE62518A2F77E008367A8 /* InstagramIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECAE62118A2F77E008367A8 /* InstagramIcon.png */; };
+		6ECAE62618A2F77E008367A8 /* InstagramIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECAE62218A2F77E008367A8 /* InstagramIcon@2x.png */; };
+		6ECAE62718A2F77E008367A8 /* TwitterIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECAE62318A2F77E008367A8 /* TwitterIcon.png */; };
+		6ECAE62818A2F77E008367A8 /* TwitterIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECAE62418A2F77E008367A8 /* TwitterIcon@2x.png */; };
+		6ECAE62B18A307DC008367A8 /* FacebookIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECAE62918A307DC008367A8 /* FacebookIcon.png */; };
+		6ECAE62C18A307DC008367A8 /* FacebookIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECAE62A18A307DC008367A8 /* FacebookIcon@2x.png */; };
+		6ECAE62F18A30C4C008367A8 /* VkontakteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECAE62D18A30C4C008367A8 /* VkontakteIcon.png */; };
+		6ECAE63018A30C4C008367A8 /* VkontakteIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECAE62E18A30C4C008367A8 /* VkontakteIcon@2x.png */; };
+		6EE6FF3518A311B400121AF2 /* TumblrIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE6FF3318A311B400121AF2 /* TumblrIcon.png */; };
+		6EE6FF3618A311B400121AF2 /* TumblrIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE6FF3418A311B400121AF2 /* TumblrIcon@2x.png */; };
 		6EF11F6B188E331D000084DD /* CollageMakingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF11F6A188E331D000084DD /* CollageMakingView.m */; };
 		6EF884B218932D3E00AF740F /* CollagePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF884B118932D3E00AF740F /* CollagePiece.m */; };
+		98EBF53247144ADF90571E1B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E07F5D18F58467C8604E9D5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48EF57FDB4554E30862C3D73 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		6E5856E9188D9ED200708322 /* CollageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollageViewController.h; sourceTree = "<group>"; };
 		6E5856EA188D9ED200708322 /* CollageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollageViewController.m; sourceTree = "<group>"; };
 		6E5856EC188DA28800708322 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
@@ -75,6 +92,10 @@
 		6E80DF1B1896E550001EAC22 /* selectPhotoBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectPhotoBtn@2x.png"; sourceTree = "<group>"; };
 		6E80DF1E189700F1001EAC22 /* deleteBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteBtn.png; sourceTree = "<group>"; };
 		6E80DF1F189700F1001EAC22 /* deleteBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteBtn@2x.png"; sourceTree = "<group>"; };
+		6E80E27F189C6917001EAC22 /* takePhotoBtn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takePhotoBtn1.png; sourceTree = "<group>"; };
+		6E80E280189C6917001EAC22 /* takePhotoBtn1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takePhotoBtn1@2x.png"; sourceTree = "<group>"; };
+		6E80E283189D7A23001EAC22 /* MySHKConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySHKConfiguration.h; sourceTree = "<group>"; };
+		6E80E284189D7A23001EAC22 /* MySHKConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySHKConfiguration.m; sourceTree = "<group>"; };
 		6E966767187E21F3002705E6 /* ImageCutOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCutOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E96676A187E21F3002705E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E96676C187E21F3002705E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -106,10 +127,25 @@
 		6E9E6A63188F1D96006CEBAC /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
 		6E9E6A6818918467006CEBAC /* shareBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareBtn.png; sourceTree = "<group>"; };
 		6E9E6A6918918467006CEBAC /* shareBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shareBtn@2x.png"; sourceTree = "<group>"; };
+		6ECAE61A18A2C1ED008367A8 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		6ECAE61B18A2C1ED008367A8 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		6ECAE61D18A2CA88008367A8 /* UIImage+ImageBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageBlur.h"; sourceTree = "<group>"; };
+		6ECAE61E18A2CA88008367A8 /* UIImage+ImageBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageBlur.m"; sourceTree = "<group>"; };
+		6ECAE62118A2F77E008367A8 /* InstagramIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstagramIcon.png; sourceTree = "<group>"; };
+		6ECAE62218A2F77E008367A8 /* InstagramIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InstagramIcon@2x.png"; sourceTree = "<group>"; };
+		6ECAE62318A2F77E008367A8 /* TwitterIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwitterIcon.png; sourceTree = "<group>"; };
+		6ECAE62418A2F77E008367A8 /* TwitterIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TwitterIcon@2x.png"; sourceTree = "<group>"; };
+		6ECAE62918A307DC008367A8 /* FacebookIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FacebookIcon.png; sourceTree = "<group>"; };
+		6ECAE62A18A307DC008367A8 /* FacebookIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FacebookIcon@2x.png"; sourceTree = "<group>"; };
+		6ECAE62D18A30C4C008367A8 /* VkontakteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VkontakteIcon.png; sourceTree = "<group>"; };
+		6ECAE62E18A30C4C008367A8 /* VkontakteIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VkontakteIcon@2x.png"; sourceTree = "<group>"; };
+		6EE6FF3318A311B400121AF2 /* TumblrIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TumblrIcon.png; sourceTree = "<group>"; };
+		6EE6FF3418A311B400121AF2 /* TumblrIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TumblrIcon@2x.png"; sourceTree = "<group>"; };
 		6EF11F69188E331D000084DD /* CollageMakingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollageMakingView.h; sourceTree = "<group>"; };
 		6EF11F6A188E331D000084DD /* CollageMakingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollageMakingView.m; sourceTree = "<group>"; };
 		6EF884B018932D3E00AF740F /* CollagePiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollagePiece.h; sourceTree = "<group>"; };
 		6EF884B118932D3E00AF740F /* CollagePiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollagePiece.m; sourceTree = "<group>"; };
+		9E07F5D18F58467C8604E9D5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +157,7 @@
 				6E96676D187E21F3002705E6 /* CoreGraphics.framework in Frameworks */,
 				6E96676F187E21F3002705E6 /* UIKit.framework in Frameworks */,
 				6E96676B187E21F3002705E6 /* Foundation.framework in Frameworks */,
+				98EBF53247144ADF90571E1B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +198,10 @@
 				6EF11F6A188E331D000084DD /* CollageMakingView.m */,
 				6EF884B018932D3E00AF740F /* CollagePiece.h */,
 				6EF884B118932D3E00AF740F /* CollagePiece.m */,
+				6ECAE61A18A2C1ED008367A8 /* ShareView.h */,
+				6ECAE61B18A2C1ED008367A8 /* ShareView.m */,
+				6ECAE61D18A2CA88008367A8 /* UIImage+ImageBlur.h */,
+				6ECAE61E18A2CA88008367A8 /* UIImage+ImageBlur.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -172,6 +213,7 @@
 				6E96678F187E21F3002705E6 /* ImageCutOutTests */,
 				6E966769187E21F3002705E6 /* Frameworks */,
 				6E966768187E21F3002705E6 /* Products */,
+				48EF57FDB4554E30862C3D73 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,6 +234,7 @@
 				6E96676C187E21F3002705E6 /* CoreGraphics.framework */,
 				6E96676E187E21F3002705E6 /* UIKit.framework */,
 				6E966789187E21F3002705E6 /* XCTest.framework */,
+				9E07F5D18F58467C8604E9D5 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,6 +246,8 @@
 				6E96677A187E21F3002705E6 /* AppDelegate.m */,
 				6E5856F5188E033400708322 /* ImagePieceReadWrite.h */,
 				6E5856F6188E033400708322 /* ImagePieceReadWrite.m */,
+				6E80E283189D7A23001EAC22 /* MySHKConfiguration.h */,
+				6E80E284189D7A23001EAC22 /* MySHKConfiguration.m */,
 				6E5856E7188D9EAB00708322 /* ViewControllers */,
 				6E5856E8188D9EB900708322 /* Views */,
 				6E96677C187E21F3002705E6 /* Main.storyboard */,
@@ -245,12 +290,15 @@
 		6E9E6A57188F1CF6006CEBAC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6ECAE62018A2F77E008367A8 /* SocialIcons */,
 				6E80DF1E189700F1001EAC22 /* deleteBtn.png */,
 				6E80DF1F189700F1001EAC22 /* deleteBtn@2x.png */,
 				6E80DF1A1896E550001EAC22 /* selectPhotoBtn.png */,
 				6E80DF1B1896E550001EAC22 /* selectPhotoBtn@2x.png */,
 				6E80DF161896E3DB001EAC22 /* takePhotoBtn.png */,
 				6E80DF171896E3DB001EAC22 /* takePhotoBtn@2x.png */,
+				6E80E27F189C6917001EAC22 /* takePhotoBtn1.png */,
+				6E80E280189C6917001EAC22 /* takePhotoBtn1@2x.png */,
 				6E80DF121896DCCB001EAC22 /* background.png */,
 				6E80DF131896DCCB001EAC22 /* background@2x.png */,
 				6E9E6A6818918467006CEBAC /* shareBtn.png */,
@@ -266,6 +314,23 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		6ECAE62018A2F77E008367A8 /* SocialIcons */ = {
+			isa = PBXGroup;
+			children = (
+				6EE6FF3318A311B400121AF2 /* TumblrIcon.png */,
+				6EE6FF3418A311B400121AF2 /* TumblrIcon@2x.png */,
+				6ECAE62D18A30C4C008367A8 /* VkontakteIcon.png */,
+				6ECAE62E18A30C4C008367A8 /* VkontakteIcon@2x.png */,
+				6ECAE62918A307DC008367A8 /* FacebookIcon.png */,
+				6ECAE62A18A307DC008367A8 /* FacebookIcon@2x.png */,
+				6ECAE62118A2F77E008367A8 /* InstagramIcon.png */,
+				6ECAE62218A2F77E008367A8 /* InstagramIcon@2x.png */,
+				6ECAE62318A2F77E008367A8 /* TwitterIcon.png */,
+				6ECAE62418A2F77E008367A8 /* TwitterIcon@2x.png */,
+			);
+			path = SocialIcons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -273,9 +338,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E966799187E21F3002705E6 /* Build configuration list for PBXNativeTarget "ImageCutOut" */;
 			buildPhases = (
+				2334946553F0436DBCA186D8 /* Check Pods Manifest.lock */,
 				6E966763187E21F3002705E6 /* Sources */,
 				6E966764187E21F3002705E6 /* Frameworks */,
 				6E966765187E21F3002705E6 /* Resources */,
+				D60C263C7B9047459CC3E911 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,23 +412,35 @@
 				6E9E6A5D188F1CF6006CEBAC /* collage.png in Resources */,
 				6E966783187E21F3002705E6 /* Images.xcassets in Resources */,
 				6E80DF141896DCCB001EAC22 /* background.png in Resources */,
+				6ECAE62518A2F77E008367A8 /* InstagramIcon.png in Resources */,
 				6E80DF191896E3DB001EAC22 /* takePhotoBtn@2x.png in Resources */,
 				6E9E6A64188F1D96006CEBAC /* plus.png in Resources */,
+				6EE6FF3518A311B400121AF2 /* TumblrIcon.png in Resources */,
 				6E9E6A6B18918467006CEBAC /* shareBtn@2x.png in Resources */,
 				6E80DF1D1896E550001EAC22 /* selectPhotoBtn@2x.png in Resources */,
 				6E966775187E21F3002705E6 /* InfoPlist.strings in Resources */,
+				6ECAE62818A2F77E008367A8 /* TwitterIcon@2x.png in Resources */,
+				6E80E281189C6917001EAC22 /* takePhotoBtn1.png in Resources */,
+				6ECAE62718A2F77E008367A8 /* TwitterIcon.png in Resources */,
+				6EE6FF3618A311B400121AF2 /* TumblrIcon@2x.png in Resources */,
 				6E80DF21189700F1001EAC22 /* deleteBtn@2x.png in Resources */,
+				6ECAE62B18A307DC008367A8 /* FacebookIcon.png in Resources */,
 				6E9E6A61188F1CF6006CEBAC /* license.txt in Resources */,
 				6E9E6A60188F1CF6006CEBAC /* cut@2x.png in Resources */,
 				6E9E6A65188F1D96006CEBAC /* plus@2x.png in Resources */,
 				6E80DF1C1896E550001EAC22 /* selectPhotoBtn.png in Resources */,
 				6E9E6A5F188F1CF6006CEBAC /* cut.png in Resources */,
+				6ECAE62618A2F77E008367A8 /* InstagramIcon@2x.png in Resources */,
 				6E80DF181896E3DB001EAC22 /* takePhotoBtn.png in Resources */,
 				6E80DF151896DCCB001EAC22 /* background@2x.png in Resources */,
+				6ECAE62F18A30C4C008367A8 /* VkontakteIcon.png in Resources */,
+				6ECAE63018A30C4C008367A8 /* VkontakteIcon@2x.png in Resources */,
 				6E96677E187E21F3002705E6 /* Main.storyboard in Resources */,
+				6ECAE62C18A307DC008367A8 /* FacebookIcon@2x.png in Resources */,
 				6E80DF20189700F1001EAC22 /* deleteBtn.png in Resources */,
 				6E9E6A5E188F1CF6006CEBAC /* collage@2x.png in Resources */,
 				6E9E6A6A18918467006CEBAC /* shareBtn.png in Resources */,
+				6E80E282189C6917001EAC22 /* takePhotoBtn1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,19 +454,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2334946553F0436DBCA186D8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D60C263C7B9047459CC3E911 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E966763187E21F3002705E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6EF884B218932D3E00AF740F /* CollagePiece.m in Sources */,
+				6ECAE61F18A2CA88008367A8 /* UIImage+ImageBlur.m in Sources */,
 				6E966781187E21F3002705E6 /* CutViewController.m in Sources */,
 				6E5856F7188E033400708322 /* ImagePieceReadWrite.m in Sources */,
 				6E5856EE188DA28800708322 /* MenuViewController.m in Sources */,
+				6ECAE61C18A2C1ED008367A8 /* ShareView.m in Sources */,
 				6E5856F1188DA45500708322 /* SideMenuViewController.m in Sources */,
 				6E9667AE187E5795002705E6 /* DrawingView.m in Sources */,
 				6EF11F6B188E331D000084DD /* CollageMakingView.m in Sources */,
 				6E96677B187E21F3002705E6 /* AppDelegate.m in Sources */,
+				6E80E285189D7A23001EAC22 /* MySHKConfiguration.m in Sources */,
 				6E5856EB188D9ED200708322 /* CollageViewController.m in Sources */,
 				6E966777187E21F3002705E6 /* main.m in Sources */,
 			);
@@ -513,6 +628,7 @@
 		};
 		6E96679A187E21F3002705E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EF57FDB4554E30862C3D73 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -526,6 +642,7 @@
 		};
 		6E96679B187E21F3002705E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EF57FDB4554E30862C3D73 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

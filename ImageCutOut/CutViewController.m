@@ -65,6 +65,7 @@
     self.imagePickerController = nil;
     
     //Enable touch on drawingView and enable cut button
+    self.imageViewToCut.hidden = NO;
     self.drawingView.userInteractionEnabled = YES;
     self.cutOutBtn.enabled = YES;
 }

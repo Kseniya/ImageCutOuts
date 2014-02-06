@@ -8,11 +8,16 @@
 
 #import "AppDelegate.h"
 #import "SideMenuViewController.h"
+#import <ShareKit/SHKConfiguration.h>
+#import "MySHKConfiguration.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    DefaultSHKConfigurator *configurator = [[MySHKConfiguration alloc] init];
+    [SHKConfiguration sharedInstanceWithConfigurator:configurator];
+    
     return YES;
 }
 							

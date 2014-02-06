@@ -1,0 +1,34 @@
+PODS:
+  - Facebook-iOS-SDK (3.11.1)
+  - ShareKit/Core (2.5.3):
+    - ShareKit/NoARC
+    - ShareKit/Reachability
+    - SSKeychain (~> 0.2.1)
+    - SSToolkit (~> 1.0.4)
+  - ShareKit/Facebook (2.5.3):
+    - Facebook-iOS-SDK
+    - ShareKit/Core
+  - ShareKit/Instagram (2.5.3):
+    - ShareKit/Core
+  - ShareKit/NoARC (2.5.3)
+  - ShareKit/Reachability (2.5.3)
+  - ShareKit/Twitter (2.5.3):
+    - ShareKit/Core
+  - ShareKit/Vkontakte (2.5.3):
+    - ShareKit/Core
+  - SSKeychain (0.2.1)
+  - SSToolkit (1.0.4)
+
+DEPENDENCIES:
+  - ShareKit/Facebook
+  - ShareKit/Instagram
+  - ShareKit/Twitter
+  - ShareKit/Vkontakte
+
+SPEC CHECKSUMS:
+  Facebook-iOS-SDK: 42a1de39170b858d675c2453d8aace55c51be2bb
+  ShareKit: 1c6a9a552e751ad5c846d1c8466db659b9b9668f
+  SSKeychain: ffa1a79eb716d9ed1ca184fb0cf218087ca28486
+  SSToolkit: 689acaedac79c2079e492e528a55bcb5db9d98c4
+
+COCOAPODS: 0.29.0

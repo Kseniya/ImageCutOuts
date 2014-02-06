@@ -115,11 +115,9 @@ static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         
-        __block id weakSelf = self;
-        
         [[ImagePieceReadWrite sharedClient] deleteImageAndThumbnailAtIndex:indexPath.row completion:^(BOOL success) {
             dispatch_async(dispatch_get_main_queue(), ^{
-                [weakSelf updateMenu];
+                [self updateMenu];
             });
         }];
     }

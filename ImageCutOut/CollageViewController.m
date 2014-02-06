@@ -10,7 +10,9 @@
 #import "SideMenuViewController.h"
 #import "CollageMakingView.h"
 #import "MenuViewController.h"
-
+#import <ShareKit.h>
+#import <ShareKit/SHKShareMenu.h>
+#import "ShareView.h"
 
 @interface CollageViewController (ImagePickerDelegate) <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
@@ -20,6 +22,9 @@
 
 @property (nonatomic) IBOutlet CollageMakingView *collageMakingView;
 @property (nonatomic) IBOutlet UINavigationBar *navigationBar;
+
+@property (nonatomic) IBOutlet UIButton *takePhotoBtn;
+@property (nonatomic) IBOutlet UIButton *selectPhotoBtn;
 
 @property (nonatomic, strong) UIImagePickerController *imagePickerController;
 
@@ -45,7 +50,31 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self animateOpening];
 }
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+}
+
+-(void)animateOpening
+{
+    CABasicAnimation * animation = [CABasicAnimation animationWithKeyPath:@"position.x"];
+    [animation setFromValue:[NSNumber numberWithFloat:-self.takePhotoBtn.frame.size.width/2]];
+    [animation setToValue:[NSNumber numberWithFloat:self.takePhotoBtn.frame.size.width/2 - 20.0]];
+    [animation setDuration:0.5];
+    [animation setTimingFunction:[CAMediaTimingFunction functionWithControlPoints:.5 :1.4 :1 :1]];
+    [self.takePhotoBtn.layer addAnimation:animation forKey:@"takeButtonMoveIn"];
+    
+    CABasicAnimation * selectBtnAnimation = [CABasicAnimation animationWithKeyPath:@"position.x"];
+    [selectBtnAnimation setFromValue:[NSNumber numberWithFloat:self.view.frame.size.width + self.selectPhotoBtn.frame.size.width/2]];
+    [selectBtnAnimation setToValue:[NSNumber numberWithFloat:self.view.frame.size.width - self.selectPhotoBtn.frame.size.width/2 + 20.0]];
+    [selectBtnAnimation setDuration:0.5];
+    [selectBtnAnimation setTimingFunction:[CAMediaTimingFunction functionWithControlPoints:.5 :1.4 :1 :1]];
+    [self.selectPhotoBtn.layer addAnimation:selectBtnAnimation forKey:@"selectButtonMoveIn"];
+}
+
 
 - (void)addPieceToCollage:(UIImage *)image
 {
@@ -100,8 +129,12 @@
 
 - (IBAction)save:(id)sender
 {
-    //save final image to camera roll
-    UIImageWriteToSavedPhotosAlbum([self.collageMakingView finalCollage], self, @selector(thisImage:hasBeenSavedInPhotoAlbumWithError:usingContextInfo:), nil);
+    // Create the item to share
+    SHKItem *item = [SHKItem image:[self.collageMakingView finalCollage] title:@"blablabla"];
+    
+    //Show share view with options
+    ShareView *view = [ShareView shareViewInView:self.view];
+    view.item = item;
 }
 
 

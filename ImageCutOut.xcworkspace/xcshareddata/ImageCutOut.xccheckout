@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AC180B83-0B27-4AE6-A0C4-65DB3E56A613</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ImageCutOut</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>58D86E7D-32B7-48A2-AA66-B94FC48027AB</key>
+		<string>ssh://github.com/Kseniya/ImageCutOuts.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ImageCutOut.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>58D86E7D-32B7-48A2-AA66-B94FC48027AB</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Kseniya/ImageCutOuts.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>58D86E7D-32B7-48A2-AA66-B94FC48027AB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>58D86E7D-32B7-48A2-AA66-B94FC48027AB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ImageCutOut</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -37,7 +37,7 @@ dispatch_queue_t readWriteQueue;
         
         __block id weakSelf = self;
         
-        dispatch_async(readWriteQueue, ^{
+        dispatch_async(readWriteQueue, ^{ //NSFileManager and NSArray are thread safe
             
             NSString *thumbPath = [weakSelf thumbnailsDirectoryPath];
             NSString *imagesPath = [weakSelf imagesDirectoryPath];
@@ -57,7 +57,7 @@ dispatch_queue_t readWriteQueue;
 
 # pragma mark Save New Piece Image
 
-- (void)saveImageAndThumbnail:(CGImageRef)imageRef completion:(void (^)(BOOL))comletion
+- (void)saveImageAndThumbnail:(CGImageRef)imageRef completion:(void (^)(BOOL))completion
 {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
 	[dateFormatter setDateFormat:@"yyyy-MM-dd_HH-mm-ss"];
@@ -83,18 +83,18 @@ dispatch_queue_t readWriteQueue;
             
             if (savedTumbnail) //if thumbnail got saved, return success true
             {
-                comletion(savedImage);
+                completion(savedImage);
                 [weakSelf updateArrays];
             }
             else //if thumbnail didn't got saved, delete saved image, return success fail
             {
-                comletion(savedTumbnail);
+                completion(savedTumbnail);
                 [weakSelf deleteImageFileAtPath:imagePath];
             }
         }
         else //if image didn't got saved, return success fail
         {
-            comletion(savedImage);
+            completion(savedImage);
         }
     });
 }

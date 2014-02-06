@@ -1,0 +1,1277 @@
+TSSToolkitResources
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/Info.plist /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/es.lproj/SSToolkit.strings Resources/es.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/fr.lproj/SSToolkit.strings Resources/fr.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/it.lproj/SSToolkit.strings Resources/it.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ja.lproj/SSToolkit.strings Resources/ja.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ko.lproj/SSToolkit.strings Resources/ko.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ms.lproj/SSToolkit.strings Resources/ms.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/pt.lproj/SSToolkit.strings Resources/pt.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ru.lproj/SSToolkit.strings Resources/ru.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.strings
+cCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings Resources/zh_Hant.lproj/SSToolkit.strings
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button@2x.png Resources/Images/back-button@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini@2x.png Resources/Images/forward-button-mini@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button@2x.png Resources/Images/forward-button@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini@2x.png Resources/Images/reload-button-mini@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png
+cCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.png
+cTouch /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/./SSToolkitResources.bundle
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground.png
+c0000000052ED38F80000000000000100
+t1391278328
+s256
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground@2x.png
+c0000000052ED38F8000000000000015E
+t1391278328
+s350
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload.png
+c0000000052ED38F8000000000000036F
+t1391278328
+s879
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload@2x.png
+c0000000052ED38F800000000000004E0
+t1391278328
+s1248
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop.png
+c0000000052ED38F8000000000000027C
+t1391278328
+s636
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop@2x.png
+c0000000052ED38F800000000000003C9
+t1391278328
+s969
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarButton.png
+c0000000052ED38F80000000000000240
+t1391278328
+s576
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarButton@2x.png
+c0000000052ED38F80000000000000525
+t1391278328
+s1317
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted.png
+c0000000052ED38F80000000000000248
+t1391278328
+s584
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted@2x.png
+c0000000052ED38F8000000000000053E
+t1391278328
+s1342
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarDivider.png
+c0000000052ED38F8000000000000008E
+t1391278328
+s142
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarDivider@2x.png
+c0000000052ED38F800000000000000CC
+t1391278328
+s204
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted.png
+c0000000052ED38F8000000000000008E
+t1391278328
+s142
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted@2x.png
+c0000000052ED38F800000000000000E7
+t1391278328
+s231
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/action-button-mini.png
+c0000000052ED38F8000000000000012C
+t1391278328
+s300
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/action-button-mini@2x.png
+c0000000052ED38F800000000000001FE
+t1391278328
+s510
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/action-button.png
+c0000000052ED38F8000000000000015F
+t1391278328
+s351
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/action-button@2x.png
+c0000000052ED38F80000000000000262
+t1391278328
+s610
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/back-button-mini.png
+c0000000052ED38F8000000000000008E
+t1391278328
+s142
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/back-button-mini@2x.png
+c0000000052ED38F800000000000000FC
+t1391278328
+s252
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/back-button.png
+c0000000052ED38F800000000000000BB
+t1391278328
+s187
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/back-button@2x.png
+c0000000052ED38F800000000000000FD
+t1391278328
+s253
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/forward-button-mini.png
+c0000000052ED38F80000000000000094
+t1391278328
+s148
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/forward-button-mini@2x.png
+c0000000052ED38F800000000000000ED
+t1391278328
+s237
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/forward-button.png
+c0000000052ED38F800000000000000AE
+t1391278328
+s174
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/forward-button@2x.png
+c0000000052ED38F80000000000000104
+t1391278328
+s260
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/gray-star.png
+c0000000052ED38F80000000000000DC4
+t1391278328
+s3524
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/gray-star@2x.png
+c0000000052ED38F8000000000000118E
+t1391278328
+s4494
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/hud-check.png
+c0000000052ED38F800000000000001A1
+t1391278328
+s417
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/hud-check@2x.png
+c0000000052ED38F80000000000000299
+t1391278328
+s665
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/hud-x.png
+c0000000052ED38F800000000000001BA
+t1391278328
+s442
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/hud-x@2x.png
+c0000000052ED38F80000000000000310
+t1391278328
+s784
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/orange-star.png
+c0000000052ED38F80000000000000EB3
+t1391278328
+s3763
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/orange-star@2x.png
+c0000000052ED38F80000000000001456
+t1391278328
+s5206
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/reload-button-mini.png
+c0000000052ED38F80000000000000106
+t1391278328
+s262
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/reload-button-mini@2x.png
+c0000000052ED38F8000000000000020E
+t1391278328
+s526
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/reload-button.png
+c0000000052ED38F80000000000000175
+t1391278328
+s373
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/reload-button@2x.png
+c0000000052ED38F800000000000002AE
+t1391278328
+s686
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/safari-button-mini.png
+c0000000052ED38F80000000000000116
+t1391278328
+s278
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/safari-button-mini@2x.png
+c0000000052ED38F800000000000002A4
+t1391278328
+s676
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/safari-button.png
+c0000000052ED38F800000000000001A2
+t1391278328
+s418
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/safari-button@2x.png
+c0000000052ED38F80000000000000317
+t1391278328
+s791
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/stop-button-mini.png
+c0000000052ED38F800000000000000D2
+t1391278328
+s210
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/stop-button-mini@2x.png
+c0000000052ED38F80000000000000135
+t1391278328
+s309
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/stop-button.png
+c0000000052ED38F800000000000000FC
+t1391278328
+s252
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/stop-button@2x.png
+c0000000052ED38F80000000000000170
+t1391278328
+s368
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist
+c0000000052ED38F80000000000000572
+t1391278328
+s1394
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/de.lproj/SSToolkit.strings
+c0000000052ED38F80000000000000369
+t1391278328
+s873
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/en.lproj/SSToolkit.strings
+c0000000052ED38F80000000000000352
+t1391278328
+s850
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/es.lproj/SSToolkit.strings
+c0000000052ED38F80000000000000374
+t1391278328
+s884
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/fr.lproj/SSToolkit.strings
+c0000000052ED38F80000000000000361
+t1391278328
+s865
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/id.lproj/SSToolkit.strings
+c0000000052ED38F80000000000000361
+t1391278328
+s865
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/it.lproj/SSToolkit.strings
+c0000000052ED38F8000000000000035C
+t1391278328
+s860
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/ja.lproj/SSToolkit.strings
+c0000000052ED38F800000000000005F0
+t1391278328
+s1520
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/ko.lproj/SSToolkit.strings
+c0000000052ED38F8000000000000033A
+t1391278328
+s826
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/ms.lproj/SSToolkit.strings
+c0000000052ED38F80000000000000370
+t1391278328
+s880
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/nl.lproj/SSToolkit.strings
+c0000000052ED38F80000000000000376
+t1391278328
+s886
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/pt.lproj/SSToolkit.strings
+c0000000052ED38F8000000000000035A
+t1391278328
+s858
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/pt_PT.lproj/SSToolkit.strings
+c0000000052ED38F80000000000000361
+t1391278328
+s865
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/ru.lproj/SSToolkit.strings
+c0000000052ED38F80000000000000382
+t1391278328
+s898
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/sv.lproj/SSToolkit.strings
+c0000000052ED38F8000000000000036C
+t1391278328
+s876
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/zh_Hans.lproj/SSToolkit.strings
+c0000000052ED38F8000000000000035A
+t1391278328
+s858
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/zh_Hant.lproj/SSToolkit.strings
+c0000000052ED38F80000000000000358
+t1391278328
+s856
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle
+t1391278393
+s2210
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/Info.plist
+t1391278393
+s1192
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png
+t1391278393
+s234
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png
+t1391278393
+s414
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload.png
+t1391278393
+s887
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png
+t1391278393
+s1144
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop.png
+t1391278393
+s482
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png
+t1391278393
+s824
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton.png
+t1391278393
+s623
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton@2x.png
+t1391278393
+s1775
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png
+t1391278393
+s611
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png
+t1391278393
+s1623
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider.png
+t1391278393
+s183
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider@2x.png
+t1391278393
+s340
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png
+t1391278393
+s182
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png
+t1391278393
+s346
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini.png
+t1391278393
+s466
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini@2x.png
+t1391278393
+s871
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button.png
+t1391278393
+s575
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button@2x.png
+t1391278393
+s1062
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini.png
+t1391278393
+s180
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini@2x.png
+t1391278393
+s395
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button.png
+t1391278393
+s249
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button@2x.png
+t1391278393
+s378
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/de.lproj/SSToolkit.strings
+t1391278393
+s581
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/en.lproj/SSToolkit.strings
+t1391278393
+s306
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/es.lproj/SSToolkit.strings
+t1391278393
+s548
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini.png
+t1391278393
+s190
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini@2x.png
+t1391278393
+s341
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button.png
+t1391278393
+s204
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button@2x.png
+t1391278393
+s349
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/fr.lproj/SSToolkit.strings
+t1391278393
+s489
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/gray-star.png
+t1391278393
+s3526
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/gray-star@2x.png
+t1391278393
+s4956
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-check.png
+t1391278393
+s393
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-check@2x.png
+t1391278393
+s629
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-x.png
+t1391278393
+s442
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-x@2x.png
+t1391278393
+s818
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/id.lproj/SSToolkit.strings
+t1391278393
+s481
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/it.lproj/SSToolkit.strings
+t1391278393
+s530
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ja.lproj/SSToolkit.strings
+t1391278393
+s482
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ko.lproj/SSToolkit.strings
+t1391278393
+s474
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ms.lproj/SSToolkit.strings
+t1391278393
+s531
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/nl.lproj/SSToolkit.strings
+t1391278393
+s522
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/orange-star.png
+t1391278393
+s3704
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/orange-star@2x.png
+t1391278393
+s5221
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/pt.lproj/SSToolkit.strings
+t1391278393
+s496
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings
+t1391278393
+s501
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini.png
+t1391278393
+s262
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini@2x.png
+t1391278393
+s935
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button.png
+t1391278393
+s610
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button@2x.png
+t1391278393
+s1223
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ru.lproj/SSToolkit.strings
+t1391278393
+s608
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini.png
+t1391278393
+s278
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini@2x.png
+t1391278393
+s1167
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button.png
+t1391278393
+s705
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button@2x.png
+t1391278393
+s1371
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini.png
+t1391278393
+s275
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini@2x.png
+t1391278393
+s394
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button.png
+t1391278393
+s330
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button@2x.png
+t1391278393
+s456
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/sv.lproj/SSToolkit.strings
+t1391278393
+s597
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings
+t1391278393
+s515
+
+N/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings
+t1391278393
+s504
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies143f7231759db841^d82c8331759db841^---0#1#1#--18"Check dependencies36"1DD7958F-714D-4B8C-9694-E49665FD9C96-
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png
+s412971193.311319
+e412971193.349359
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png
+xResources/Images/SSAddressBarTextFieldBackground.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png126"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.pnge2cc4fb9709db841^b2ba59b9709db841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground.png0000000000000000^914"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png36"838588C3-769B-4165-B1C9-52D18C622948-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png
+s412971193.313756
+e412971193.354688
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png
+xResources/Images/SSAddressBarTextFieldBackground@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png132"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png227050b9709db841^81cc5ab9709db841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground@2x.png0000000000000000^926"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png36"46986B4A-9CC9-414F-BA09-F12F5BF7ED43-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png
+s412971193.316954
+e412971193.354541
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload.png
+xResources/Images/SSAddressBarTextFieldReload.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png118"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.pngde5751b9709db841^00c75ab9709db841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload.png0000000000000000^898"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload.png36"6175F3BE-63F2-4196-B18E-49FE5CD5C5D5-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.png
+s412971193.317320
+e412971193.355978
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png
+xResources/Images/SSAddressBarTextFieldReload@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.png124"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.pngba6b51b9709db841^95285bb9709db841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload@2x.png0000000000000000^910"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png36"103EE7F2-166E-4336-8747-994B326D2B3C-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png
+s412971193.349669
+e412971193.386865
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop.png
+xResources/Images/SSAddressBarTextFieldStop.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png114"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png0aa359b9709db841^685963b9709db841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop.png0000000000000000^890"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop.png36"E789D814-CE9D-4FD9-9C75-6ED2B2820D4A-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png
+s412971193.354843
+e412971193.393234
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png
+xResources/Images/SSAddressBarTextFieldStop@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png120"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png1f115bb9709db841^b70b65b9709db841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop@2x.png0000000000000000^902"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png36"C2B06129-8ACB-4FF0-8C95-A1DFC541A9DE-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png
+s412971193.355250
+e412971193.391778
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton.png
+xResources/Images/UISegmentBarButton.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png100"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.pngc3295bb9709db841^719064b9709db841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarButton.png0000000000000000^862"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarButton.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton.png36"5CEA8FA3-7D56-4F2F-BBF5-CE3DE33FDD57-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.png
+s412971193.356837
+e412971193.397807
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton@2x.png
+xResources/Images/UISegmentBarButton@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.png106"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.pngc9905bb9709db841^c34566b9709db841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarButton@2x.png0000000000000000^874"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarButton@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton@2x.png36"590ACCF9-B2C2-49F7-99A7-CACDC003E5D3-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png
+s412971193.387128
+e412971193.425953
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png
+xResources/Images/UISegmentBarButtonHighlighted.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png122"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png3f3863b9709db841^42416db9709db841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted.png0000000000000000^906"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png36"86DE64AE-E74A-4D40-9838-51F8E395FADA-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.png
+s412971193.392063
+e412971193.432040
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png
+xResources/Images/UISegmentBarButtonHighlighted@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.png128"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.png1c7964b9709db841^9b3d70b9709db841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted@2x.png0000000000000000^918"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png36"F97631AA-C622-49DC-8538-1685747769E9-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.png
+s412971193.393707
+e412971193.430997
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider.png
+xResources/Images/UISegmentBarDivider.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.png102"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.png5bea64b9709db841^013270b9709db841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarDivider.png0000000000000000^866"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarDivider.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider.png36"945B4B9A-1827-4E3D-A0C7-AC7DA90D31F7-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png
+s412971193.398083
+e412971193.436145
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider@2x.png
+xResources/Images/UISegmentBarDivider@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png108"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png750666b9709db841^e35370b9709db841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarDivider@2x.png0000000000000000^878"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarDivider@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider@2x.png36"34DAAC25-E7E8-448E-8428-3945FBAB781F-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.png
+s412971193.426235
+e412971193.463306
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png
+xResources/Images/UISegmentBarDividerHighlighted.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.png124"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.pnge9606db9709db841^0cb176b9709db841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted.png0000000000000000^910"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png36"3C641C91-4215-459D-8A71-17C5A20AB856-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png
+s412971193.431261
+e412971193.467399
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png
+xResources/Images/UISegmentBarDividerHighlighted@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png130"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.pngf1846eb9709db841^5f0978b9709db841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted@2x.png0000000000000000^922"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png36"C2612C7D-818F-471D-A146-396110E3E23E-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png
+s412971193.432417
+e412971193.471486
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini.png
+xResources/Images/action-button-mini.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png100"CopyPNGFile SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png2bdc6eb9709db841^fb3d79b9709db841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/action-button-mini.png0000000000000000^862"CopyPNGFile SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/action-button-mini.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini.png36"13F09E4C-904F-44F9-A59C-F0E704D07E5B-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png
+s412971193.436437
+e412971193.476754
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini@2x.png
+xResources/Images/action-button-mini@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png106"CopyPNGFile SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png9ce06fb9709db841^72867ab9709db841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/action-button-mini@2x.png0000000000000000^874"CopyPNGFile SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/action-button-mini@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini@2x.png36"57DDF67C-2BCC-4655-8EC6-5D54D3740EDA-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png
+s412971193.463864
+e412971193.503660
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button.png
+xResources/Images/action-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png90"CopyPNGFile SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png7fdc76b9709db841^ef3881b9709db841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/action-button.png0000000000000000^842"CopyPNGFile SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/action-button.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button.png36"0074A3C4-E1B3-4106-BED7-9BA1D74F354A-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.png
+s412971193.467696
+e412971193.513073
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button@2x.png
+xResources/Images/action-button@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.png96"CopyPNGFile SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.png5ad877b9709db841^b39983b9709db841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/action-button@2x.png0000000000000000^854"CopyPNGFile SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/action-button@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/action-button@2x.png36"DB126E23-7A74-441F-BF71-890EA2FD43FF-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png
+s412971193.471829
+e412971193.507817
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini.png
+xResources/Images/back-button-mini.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png96"CopyPNGFile SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png57eb78b9709db841^ea2582b9709db841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/back-button-mini.png0000000000000000^854"CopyPNGFile SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/back-button-mini.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini.png36"2DD7DFE6-7AEB-4A76-8401-F6C5A52BC5C3-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.png
+s412971193.477124
+e412971193.514476
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini@2x.png
+xResources/Images/back-button-mini@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.png102"CopyPNGFile SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.png52447ab9709db841^9cc183b9709db841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/back-button-mini@2x.png0000000000000000^866"CopyPNGFile SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/back-button-mini@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini@2x.png36"74D95FF7-E44F-4C4E-9BBA-58A56ADF45D7-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png
+s412971193.503868
+e412971193.540768
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button.png
+xResources/Images/back-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png86"CopyPNGFile SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png261d81b9709db841^5de08ab9709db841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/back-button.png0000000000000000^834"CopyPNGFile SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/back-button.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button.png36"F9881327-92B9-4F02-804C-B8AEE8DD0168-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button@2x.png Resources/Images/back-button@2x.png
+s412971193.508021
+e412971193.544905
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button@2x.png
+xResources/Images/back-button@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile SSToolkitResources.bundle/back-button@2x.png Resources/Images/back-button@2x.png92"CopyPNGFile SSToolkitResources.bundle/back-button@2x.png Resources/Images/back-button@2x.png003c82b9709db841^b4c78bb9709db841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/back-button@2x.png0000000000000000^846"CopyPNGFile SSToolkitResources.bundle/back-button@2x.png Resources/Images/back-button@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/back-button@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/back-button@2x.png36"8785EC44-D688-4296-92BF-F0332DA9C55D-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.png
+s412971193.513262
+e412971193.552185
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini.png
+xResources/Images/forward-button-mini.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.png102"CopyPNGFile SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.pngba8483b9709db841^e6788db9709db841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/forward-button-mini.png0000000000000000^866"CopyPNGFile SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/forward-button-mini.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini.png36"C6338A5D-5935-47AC-802B-8DAC199D5AF7-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini@2x.png Resources/Images/forward-button-mini@2x.png
+s412971193.515254
+e412971193.552376
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini@2x.png
+xResources/Images/forward-button-mini@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile SSToolkitResources.bundle/forward-button-mini@2x.png Resources/Images/forward-button-mini@2x.png108"CopyPNGFile SSToolkitResources.bundle/forward-button-mini@2x.png Resources/Images/forward-button-mini@2x.pngcf2d84b9709db841^1b9b8db9709db841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/forward-button-mini@2x.png0000000000000000^878"CopyPNGFile SSToolkitResources.bundle/forward-button-mini@2x.png Resources/Images/forward-button-mini@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/forward-button-mini@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini@2x.png36"A8E4550D-819A-4C11-B458-B78AF15E2103-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.png
+s412971193.541059
+e412971193.577298
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button.png
+xResources/Images/forward-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.png92"CopyPNGFile SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.png499f8ab9709db841^143d94b9709db841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/forward-button.png0000000000000000^846"CopyPNGFile SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/forward-button.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button.png36"8C81151F-52EC-4BFB-A8D1-47BAD953F473-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button@2x.png Resources/Images/forward-button@2x.png
+s412971193.545177
+e412971193.583148
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button@2x.png
+xResources/Images/forward-button@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile SSToolkitResources.bundle/forward-button@2x.png Resources/Images/forward-button@2x.png98"CopyPNGFile SSToolkitResources.bundle/forward-button@2x.png Resources/Images/forward-button@2x.pnge2ad8bb9709db841^3cbe95b9709db841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/forward-button@2x.png0000000000000000^858"CopyPNGFile SSToolkitResources.bundle/forward-button@2x.png Resources/Images/forward-button@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/forward-button@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/forward-button@2x.png36"F36D3146-0534-4835-AF2D-C38474B6C603-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png
+s412971193.272057
+e412971193.311049
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/gray-star.png
+xResources/Images/gray-star.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png82"CopyPNGFile SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.pngace645b9709db841^3fe24fb9709db841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/gray-star.png0000000000000000^826"CopyPNGFile SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/gray-star.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/gray-star.png36"3AD39818-F9C1-4BDC-A356-FDEEBA69B640-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png
+s412971193.272764
+e412971193.316604
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/gray-star@2x.png
+xResources/Images/gray-star@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png88"CopyPNGFile SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.pngc5ff45b9709db841^401351b9709db841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/gray-star@2x.png0000000000000000^838"CopyPNGFile SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/gray-star@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/gray-star@2x.png36"607258DD-C32A-437D-8176-2759D4A451CE-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png
+s412971193.183249
+e412971193.271546
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-check.png
+xResources/Images/hud-check.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png82"CopyPNGFile SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png2e1d2fb9709db841^609345b9709db841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/hud-check.png0000000000000000^826"CopyPNGFile SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/hud-check.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-check.png36"DBD9D818-CA46-48E0-A810-40B9BDEA89B9-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png
+s412971193.183774
+e412971193.272219
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-check@2x.png
+xResources/Images/hud-check@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png88"CopyPNGFile SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png94342fb9709db841^3fc945b9709db841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/hud-check@2x.png0000000000000000^838"CopyPNGFile SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/hud-check@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-check@2x.png36"507FB7EF-ED8F-452D-B4D6-C85ABB36D632-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png
+s412971193.184498
+e412971193.271668
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-x.png
+xResources/Images/hud-x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CopyPNGFile SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png74"CopyPNGFile SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png465d2fb9709db841^babc45b9709db841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/hud-x.png0000000000000000^810"CopyPNGFile SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/hud-x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-x.png36"D4F1090D-699E-4B82-888E-3647EE3D48F8-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png
+s412971193.186811
+e412971193.272484
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-x@2x.png
+xResources/Images/hud-x@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png80"CopyPNGFile SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png73f12fb9709db841^61e045b9709db841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/hud-x@2x.png0000000000000000^822"CopyPNGFile SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/hud-x@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/hud-x@2x.png36"8095EAF8-0CF8-43EB-8A91-AD07E14054EC-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png
+s412971193.272876
+e412971193.313483
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/orange-star.png
+xResources/Images/orange-star.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png86"CopyPNGFile SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.pngcefd45b9709db841^429750b9709db841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/orange-star.png0000000000000000^834"CopyPNGFile SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/orange-star.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/orange-star.png36"8399494E-0D5F-4143-8545-DEDB985A8D47-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.png
+s412971193.273730
+e412971193.316604
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/orange-star@2x.png
+xResources/Images/orange-star@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.png92"CopyPNGFile SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.pngec3046b9709db841^ad4b51b9709db841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/orange-star@2x.png0000000000000000^846"CopyPNGFile SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/orange-star@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/orange-star@2x.png36"178913AA-A159-4488-8B10-9BA39882CA6A-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.png
+s412971193.552508
+e412971193.590286
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini.png
+xResources/Images/reload-button-mini.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.png100"CopyPNGFile SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.png47b08db9709db841^6c4197b9709db841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/reload-button-mini.png0000000000000000^862"CopyPNGFile SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/reload-button-mini.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini.png36"3F50D02B-1F7D-4868-AFA3-0A8FF69F3981-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini@2x.png Resources/Images/reload-button-mini@2x.png
+s412971193.553546
+e412971193.594832
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini@2x.png
+xResources/Images/reload-button-mini@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile SSToolkitResources.bundle/reload-button-mini@2x.png Resources/Images/reload-button-mini@2x.png106"CopyPNGFile SSToolkitResources.bundle/reload-button-mini@2x.png Resources/Images/reload-button-mini@2x.pngd3d98db9709db841^61c698b9709db841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/reload-button-mini@2x.png0000000000000000^874"CopyPNGFile SSToolkitResources.bundle/reload-button-mini@2x.png Resources/Images/reload-button-mini@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/reload-button-mini@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini@2x.png36"9FFFDE7B-EFDF-488D-9BEB-DA8898A643DE-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png
+s412971193.577601
+e412971193.618033
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button.png
+xResources/Images/reload-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png90"CopyPNGFile SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png0dfd93b9709db841^78989eb9709db841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/reload-button.png0000000000000000^842"CopyPNGFile SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/reload-button.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button.png36"EB48EC28-34FC-40D4-AE16-537DD6BB7232-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.png
+s412971193.583438
+e412971193.625176
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button@2x.png
+xResources/Images/reload-button@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.png96"CopyPNGFile SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.png8e7995b9709db841^a646a0b9709db841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/reload-button@2x.png0000000000000000^854"CopyPNGFile SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/reload-button@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/reload-button@2x.png36"3E2AC8BF-7B67-4344-8018-E9818B742426-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png
+s412971193.590540
+e412971193.629059
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini.png
+xResources/Images/safari-button-mini.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png100"CopyPNGFile SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png6c7b97b9709db841^ba67a1b9709db841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/safari-button-mini.png0000000000000000^862"CopyPNGFile SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/safari-button-mini.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini.png36"70496A50-C21D-4130-A8BE-8F04C286CBE5-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png
+s412971193.595127
+e412971193.634893
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini@2x.png
+xResources/Images/safari-button-mini@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png106"CopyPNGFile SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png857898b9709db841^69fca2b9709db841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/safari-button-mini@2x.png0000000000000000^874"CopyPNGFile SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/safari-button-mini@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini@2x.png36"5DC921B9-5893-4FF0-A9F3-69219A22FAA6-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png
+s412971193.618338
+e412971193.657427
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button.png
+xResources/Images/safari-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png90"CopyPNGFile SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png876a9eb9709db841^c8b6a8b9709db841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/safari-button.png0000000000000000^842"CopyPNGFile SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/safari-button.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button.png36"60A0BF0F-AE03-418D-855D-BC825753C01F-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.png
+s412971193.625355
+e412971193.668323
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button@2x.png
+xResources/Images/safari-button@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.png96"CopyPNGFile SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.png1a34a0b9709db841^c344abb9709db841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/safari-button@2x.png0000000000000000^854"CopyPNGFile SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/safari-button@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/safari-button@2x.png36"3012682B-A2E4-4103-9243-CD86539D0748-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png
+s412971193.629352
+e412971193.666172
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini.png
+xResources/Images/stop-button-mini.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png96"CopyPNGFile SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.pngc13ba1b9709db841^37ddaab9709db841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/stop-button-mini.png0000000000000000^854"CopyPNGFile SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/stop-button-mini.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini.png36"0291E877-D68D-4C38-A901-E294A444C016-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.png
+s412971193.635194
+e412971193.672962
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini@2x.png
+xResources/Images/stop-button-mini@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.png102"CopyPNGFile SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.pngbfbaa2b9709db841^7958acb9709db841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/stop-button-mini@2x.png0000000000000000^866"CopyPNGFile SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/stop-button-mini@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini@2x.png36"FE43AACE-7C8E-40C4-B82A-CE75EFDC28D6-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png
+s412971193.657723
+e412971193.687887
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button.png
+xResources/Images/stop-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png86"CopyPNGFile SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.pngb588a8b9709db841^6e19b0b9709db841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/stop-button.png0000000000000000^834"CopyPNGFile SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/stop-button.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button.png36"BDC8D835-0139-483B-8A06-A34A4F62DF9D-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyPNGFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.png
+s412971193.666471
+e412971193.695016
+r1
+xCopyPNGFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button@2x.png
+xResources/Images/stop-button@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.png92"CopyPNGFile SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.pngbabbaab9709db841^07edb1b9709db841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/stop-button@2x.png0000000000000000^846"CopyPNGFile SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.png    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/Images/stop-button@2x.png /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/stop-button@2x.png36"B8140994-C498-4AEF-86E0-5487D416763F-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.strings
+s412971193.171057
+e412971193.173561
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/de.lproj/SSToolkit.strings
+xResources/de.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/de.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.stringse9ed2bb9709db841^7c7e2cb9709db841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/de.lproj/SSToolkit.strings0000000000000000^775"CopyStringsFile SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/de.lproj -- Resources/de.lproj/SSToolkit.strings36"EBFD0FC2-A239-42B6-B66F-3A7430850210-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.strings
+s412971193.170835
+e412971193.173607
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/en.lproj/SSToolkit.strings
+xResources/en.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/en.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.stringsf7e62bb9709db841^75742cb9709db841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/en.lproj/SSToolkit.strings0000000000000000^775"CopyStringsFile SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/en.lproj -- Resources/en.lproj/SSToolkit.strings36"84AFD95A-49DD-46FB-81AA-1A69D4B706D5-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/es.lproj/SSToolkit.strings Resources/es.lproj/SSToolkit.strings
+s412971193.171309
+e412971193.173573
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/es.lproj/SSToolkit.strings
+xResources/es.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/es.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/es.lproj/SSToolkit.strings Resources/es.lproj/SSToolkit.stringsf4fa2bb9709db841^ea972cb9709db841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/es.lproj/SSToolkit.strings0000000000000000^775"CopyStringsFile SSToolkitResources.bundle/es.lproj/SSToolkit.strings Resources/es.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/es.lproj -- Resources/es.lproj/SSToolkit.strings36"AD44D031-2F99-4081-9DBF-9BC0263EECC4-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/fr.lproj/SSToolkit.strings Resources/fr.lproj/SSToolkit.strings
+s412971193.172029
+e412971193.173920
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/fr.lproj/SSToolkit.strings
+xResources/fr.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/fr.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/fr.lproj/SSToolkit.strings Resources/fr.lproj/SSToolkit.stringse5282cb9709db841^72a72cb9709db841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/fr.lproj/SSToolkit.strings0000000000000000^775"CopyStringsFile SSToolkitResources.bundle/fr.lproj/SSToolkit.strings Resources/fr.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/fr.lproj -- Resources/fr.lproj/SSToolkit.strings36"EFB38ABA-2DDE-4BB5-967B-C586ECC51375-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings
+s412971193.174212
+e412971193.176640
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/id.lproj/SSToolkit.strings
+xResources/id.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/id.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings19c72cb9709db841^d34e2db9709db841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/id.lproj/SSToolkit.strings0000000000000000^775"CopyStringsFile SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/id.lproj -- Resources/id.lproj/SSToolkit.strings36"87B26886-5B1B-4CF3-8BDE-AFFA0E8271C4-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/it.lproj/SSToolkit.strings Resources/it.lproj/SSToolkit.strings
+s412971193.174415
+e412971193.176816
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/it.lproj/SSToolkit.strings
+xResources/it.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/it.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/it.lproj/SSToolkit.strings Resources/it.lproj/SSToolkit.strings1cd22cb9709db841^ea582db9709db841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/it.lproj/SSToolkit.strings0000000000000000^775"CopyStringsFile SSToolkitResources.bundle/it.lproj/SSToolkit.strings Resources/it.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/it.lproj -- Resources/it.lproj/SSToolkit.strings36"4570D53E-E6E2-4BF7-813F-D85ED846E6DA-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ja.lproj/SSToolkit.strings Resources/ja.lproj/SSToolkit.strings
+s412971193.174865
+e412971193.177633
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ja.lproj/SSToolkit.strings
+xResources/ja.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/ja.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/ja.lproj/SSToolkit.strings Resources/ja.lproj/SSToolkit.stringsd3f92cb9709db841^23822db9709db841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/ja.lproj/SSToolkit.strings0000000000000000^775"CopyStringsFile SSToolkitResources.bundle/ja.lproj/SSToolkit.strings Resources/ja.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ja.lproj -- Resources/ja.lproj/SSToolkit.strings36"6160D173-E5ED-4EAE-B3E6-8FC3A3809484-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ko.lproj/SSToolkit.strings Resources/ko.lproj/SSToolkit.strings
+s412971193.174979
+e412971193.177332
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ko.lproj/SSToolkit.strings
+xResources/ko.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/ko.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/ko.lproj/SSToolkit.strings Resources/ko.lproj/SSToolkit.strings7dea2cb9709db841^06662db9709db841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/ko.lproj/SSToolkit.strings0000000000000000^775"CopyStringsFile SSToolkitResources.bundle/ko.lproj/SSToolkit.strings Resources/ko.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ko.lproj -- Resources/ko.lproj/SSToolkit.strings36"013360F3-C0B4-41CA-AAC0-A8DF751F8A1B-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ms.lproj/SSToolkit.strings Resources/ms.lproj/SSToolkit.strings
+s412971193.176891
+e412971193.179359
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ms.lproj/SSToolkit.strings
+xResources/ms.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/ms.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/ms.lproj/SSToolkit.strings Resources/ms.lproj/SSToolkit.stringsad892db9709db841^a5f32db9709db841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/ms.lproj/SSToolkit.strings0000000000000000^775"CopyStringsFile SSToolkitResources.bundle/ms.lproj/SSToolkit.strings Resources/ms.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ms.lproj -- Resources/ms.lproj/SSToolkit.strings36"8F383E53-94FC-4824-902A-B4BF0B36A598-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.strings
+s412971193.177455
+e412971193.180276
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/nl.lproj/SSToolkit.strings
+xResources/nl.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/nl.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.stringsa2972db9709db841^8c2b2eb9709db841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/nl.lproj/SSToolkit.strings0000000000000000^775"CopyStringsFile SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/nl.lproj -- Resources/nl.lproj/SSToolkit.strings36"634623C3-2CD8-4414-9E66-7E53C5AEB962-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/pt.lproj/SSToolkit.strings Resources/pt.lproj/SSToolkit.strings
+s412971193.178769
+e412971193.180855
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/pt.lproj/SSToolkit.strings
+xResources/pt.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/pt.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/pt.lproj/SSToolkit.strings Resources/pt.lproj/SSToolkit.strings11df2db9709db841^6b652eb9709db841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/pt.lproj/SSToolkit.strings0000000000000000^775"CopyStringsFile SSToolkitResources.bundle/pt.lproj/SSToolkit.strings Resources/pt.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/pt.lproj -- Resources/pt.lproj/SSToolkit.strings36"17222184-C6D5-447D-9704-6E3C72BF5127-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.strings
+s412971193.178016
+e412971193.180591
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings
+xResources/pt_PT.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy Resources/pt_PT.lproj/SSToolkit.strings111"CopyStringsFile SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.stringse1b32db9709db841^8a3f2eb9709db841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/pt_PT.lproj/SSToolkit.strings0000000000000000^787"CopyStringsFile SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/pt_PT.lproj -- Resources/pt_PT.lproj/SSToolkit.strings36"45C6866F-E777-4AAD-BF57-5FD80E324F6D-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ru.lproj/SSToolkit.strings Resources/ru.lproj/SSToolkit.strings
+s412971193.179874
+e412971193.182842
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ru.lproj/SSToolkit.strings
+xResources/ru.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/ru.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/ru.lproj/SSToolkit.strings Resources/ru.lproj/SSToolkit.stringsae652eb9709db841^e0d92eb9709db841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/ru.lproj/SSToolkit.strings0000000000000000^775"CopyStringsFile SSToolkitResources.bundle/ru.lproj/SSToolkit.strings Resources/ru.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/ru.lproj -- Resources/ru.lproj/SSToolkit.strings36"BFFD01CE-5B82-4402-91C4-AEC7686E7C99-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.strings
+s412971193.180521
+e412971193.183898
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/sv.lproj/SSToolkit.strings
+xResources/sv.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/sv.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.strings19702eb9709db841^9f392fb9709db841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/sv.lproj/SSToolkit.strings0000000000000000^775"CopyStringsFile SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/sv.lproj -- Resources/sv.lproj/SSToolkit.strings36"A248E10F-AD2F-4821-AEA8-D579D489B493-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.strings
+s412971193.181426
+e412971193.183629
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings
+xResources/zh_Hans.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy Resources/zh_Hans.lproj/SSToolkit.strings115"CopyStringsFile SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.strings2a8b2eb9709db841^d82c2fb9709db841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/zh_Hans.lproj/SSToolkit.strings0000000000000000^795"CopyStringsFile SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hans.lproj -- Resources/zh_Hans.lproj/SSToolkit.strings36"15FE8B25-9D72-43AF-A855-058AC9A040E5-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CCopyStringsFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings Resources/zh_Hant.lproj/SSToolkit.strings
+s412971193.182684
+e412971193.186538
+r1
+xCopyStringsFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings
+xResources/zh_Hant.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy Resources/zh_Hant.lproj/SSToolkit.strings115"CopyStringsFile SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings Resources/zh_Hant.lproj/SSToolkit.strings12f92eb9709db841^577730b9709db841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/zh_Hant.lproj/SSToolkit.strings0000000000000000^795"CopyStringsFile SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings Resources/zh_Hant.lproj/SSToolkit.strings    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hant.lproj -- Resources/zh_Hant.lproj/SSToolkit.strings36"4AF441FF-A47A-4C3C-9C5B-CEEF194C6461-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CProcessInfoPlistFile /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/Info.plist /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist
+s412971193.167276
+e412971193.170071
+r1
+xProcessInfoPlistFile
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/Info.plist
+x/Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Process /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist97"ProcessInfoPlistFile SSToolkitResources.bundle/Info.plist Resources/SSToolkitResources-Info.plistba142bb9709db841^d7892bb9709db841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist0000000000000000^823"ProcessInfoPlistFile SSToolkitResources.bundle/Info.plist Resources/SSToolkitResources-Info.plist    cd /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/gems/ruby-2.1.0-preview1@global/bin:/Users/Kseniya/.rvm/rubies/ruby-2.1.0-preview1/bin:/Users/Kseniya/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist -expandbuildsettings -format binary -platform iphoneos -o /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/SSToolkitResources.bundle/Info.plist36"845FE3DC-EB84-4226-8A2C-7594B88692DC-
+b677BD139-2F3B-4EE0-8CC1-DF9A55C1F85A
+
+CTouch /Users/Kseniya/Documents/Work/ImageCutOut/Pods/SSToolkit/./SSToolkitResources.bundle
+r0
+

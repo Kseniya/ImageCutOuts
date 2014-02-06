@@ -15,7 +15,7 @@
 
 + (instancetype)sharedClient;
 
-- (void)saveImageAndThumbnail:(CGImageRef)imageRef completion:(void (^)(BOOL success))comletion;
+- (void)saveImageAndThumbnail:(CGImageRef)imageRef completion:(void (^)(BOOL success))completion;
 - (void)deleteImageAndThumbnailAtIndex:(NSInteger)index completion:(void (^)(BOOL success))completion;
 
 
