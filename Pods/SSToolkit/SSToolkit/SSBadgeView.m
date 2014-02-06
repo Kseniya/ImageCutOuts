@@ -172,7 +172,7 @@
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_6_0
 	_textLabel.textAlignment = NSTextAlignmentCenter;
 #else
-	_textLabel.textAlignment = UITextAlignmentCenter;
+	_textLabel.textAlignment = NSTextAlignmentCenter;
 #endif
 	
 	self.badgeColor = [[self class] defaultBadgeColor];

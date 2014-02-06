@@ -36,11 +36,11 @@
  These values are used by any service that shows 'shared from XYZ'
  */
 - (NSString*)appName {
-	return @"CutUp";
+	return @"My App Name";
 }
 
 - (NSString*)appURL {
-	return @"http://cutup.com";
+	return @"http://example.com";
 }
 
 /*
@@ -63,7 +63,7 @@
 // Vkontakte
 // SHKVkontakteAppID is the Application ID provided by Vkontakte
 - (NSString*)vkontakteAppId {
-	return @"4160213";
+	return @"";
 }
 
 // Facebook - https://developers.facebook.com/apps
@@ -77,11 +77,11 @@
 // 
 //    Your CFBundleURLSchemes entry: fb555lite
 - (NSString*)facebookAppId {
-	return @"405937189552420";
+	return @"";
 }
 
 - (NSString*)facebookLocalAppId {
-	return @"beta";
+	return @"";
 }
 
 //Change if your app needs some special Facebook permissions only. In most cases you can leave it as it is.
@@ -152,11 +152,11 @@
  */
 
 - (NSString*)twitterConsumerKey {
-	return @"YcrRNe3XXuh3Ry2FLOKZw";
+	return @"";
 }
 
 - (NSString*)twitterSecret {
-	return @"xzQhuqXFQKhN4FGRP5ExhCRWzsMdPxXPpAVoNzE";
+	return @"";
 }
 // You need to set this if using OAuth, see note above (xAuth users can skip it)
 - (NSString*)twitterCallbackUrl {
@@ -262,11 +262,11 @@
 
 // Tumblr - http://www.tumblr.com/docs/en/api/v2
 - (NSString*)tumblrConsumerKey {
-	return @"7xHj4zcbPBXEgD668CMw2WnZyuYkmbyZCJrhzChI3qUlVQTwli";
+	return @"";
 }
 
 - (NSString*)tumblrSecret {
-	return @"UF5mg7Sy9l4vb41QlwKAx0FkkRE3hzByYjxfIEvEYmyBh5bSpy";
+	return @"";
 }
 
 //you can put whatever here. It must be the same you entered in tumblr app registration, eg tumblr.sharekit.com

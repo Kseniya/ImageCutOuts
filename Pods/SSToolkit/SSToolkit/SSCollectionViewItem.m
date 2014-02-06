@@ -118,7 +118,7 @@
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_6_0
 				_detailTextLabel.textAlignment = NSTextAlignmentCenter;
 #else
-				_detailTextLabel.textAlignment = UITextAlignmentCenter;
+				_detailTextLabel.textAlignment = NSTextAlignmentCenter;
 #endif
 				[self addSubview:_detailTextLabel];
 			}
@@ -127,7 +127,7 @@
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_6_0
             _textLabel.textAlignment = NSTextAlignmentCenter;
 #else
-            _textLabel.textAlignment = UITextAlignmentCenter;
+            _textLabel.textAlignment = NSTextAlignmentCenter;
 #endif
 			[self addSubview:_textLabel];
 			

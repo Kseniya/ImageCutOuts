@@ -9,8 +9,8 @@
 // Facebook-iOS-SDK
 #define COCOAPODS_POD_AVAILABLE_Facebook_iOS_SDK
 #define COCOAPODS_VERSION_MAJOR_Facebook_iOS_SDK 3
-#define COCOAPODS_VERSION_MINOR_Facebook_iOS_SDK 11
-#define COCOAPODS_VERSION_PATCH_Facebook_iOS_SDK 1
+#define COCOAPODS_VERSION_MINOR_Facebook_iOS_SDK 12
+#define COCOAPODS_VERSION_PATCH_Facebook_iOS_SDK 0
 
 // SSKeychain
 #define COCOAPODS_POD_AVAILABLE_SSKeychain
@@ -53,6 +53,12 @@
 #define COCOAPODS_VERSION_MAJOR_ShareKit_Reachability 2
 #define COCOAPODS_VERSION_MINOR_ShareKit_Reachability 5
 #define COCOAPODS_VERSION_PATCH_ShareKit_Reachability 3
+
+// ShareKit/Tumblr
+#define COCOAPODS_POD_AVAILABLE_ShareKit_Tumblr
+#define COCOAPODS_VERSION_MAJOR_ShareKit_Tumblr 2
+#define COCOAPODS_VERSION_MINOR_ShareKit_Tumblr 5
+#define COCOAPODS_VERSION_PATCH_ShareKit_Tumblr 3
 
 // ShareKit/Twitter
 #define COCOAPODS_POD_AVAILABLE_ShareKit_Twitter

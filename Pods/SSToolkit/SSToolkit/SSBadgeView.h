@@ -21,13 +21,13 @@ typedef enum {
 	SSBadgeViewAlignmentRight = NSTextAlignmentRight
 #else
 	/** Align badge along the left edge. */
-	SSBadgeViewAlignmentLeft = UITextAlignmentLeft,
+	SSBadgeViewAlignmentLeft = NSTextAlignmentLeft,
 	
 	/** Align badge equally along both sides of the center line. */
-	SSBadgeViewAlignmentCenter = UITextAlignmentCenter,
+	SSBadgeViewAlignmentCenter = NSTextAlignmentCenter,
 	
 	/** Align badge along the right edge. */
-	SSBadgeViewAlignmentRight = UITextAlignmentRight
+	SSBadgeViewAlignmentRight = NSTextAlignmentRight
 #endif
 } SSBadgeViewAlignment;
 

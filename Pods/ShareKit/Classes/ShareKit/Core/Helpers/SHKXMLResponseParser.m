@@ -98,9 +98,9 @@
     NSDictionary *parentsParent = [self parentOfElement:parentName];
     BOOL elementsParentExists;
     if (parentsParent) {
-        elementsParentExists = (BOOL) parentsParent[parentName];
+        elementsParentExists = (BOOL)parentsParent[parentName];
     } else {
-        elementsParentExists = (BOOL) self.parsedResponse[parentName];
+        elementsParentExists = (BOOL)self.parsedResponse[parentName];
     }
     if ([self.currentElementNames count] > 0 && !elementsParentExists) {
         NSMutableDictionary *lastLevelDict = [NSMutableDictionary dictionaryWithCapacity:3];

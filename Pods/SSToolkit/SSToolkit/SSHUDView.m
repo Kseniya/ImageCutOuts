@@ -119,7 +119,7 @@ static CGFloat kIndicatorSize = 40.0;
         
         [dingbat drawInRect:dingbatRect withAttributes: @{ NSFontAttributeName: dingbatFont, NSParagraphStyleAttributeName: paragraphStyle}];
 #else
-		[dingbat drawInRect:dingbatRect withFont:dingbatFont lineBreakMode:UILineBreakModeClip alignment:UITextAlignmentCenter];
+		[dingbat drawInRect:dingbatRect withFont:dingbatFont lineBreakMode:UILineBreakModeClip alignment:NSTextAlignmentCenter];
 #endif
 	}
 }
@@ -172,7 +172,7 @@ static CGFloat kIndicatorSize = 40.0;
 		_textLabel.textAlignment = NSTextAlignmentCenter;
 		_textLabel.lineBreakMode = NSLineBreakByTruncatingTail;
 #else
-		_textLabel.textAlignment = UITextAlignmentCenter;
+		_textLabel.textAlignment = NSTextAlignmentCenter;
 		_textLabel.lineBreakMode = UILineBreakModeTailTruncation;
 #endif
 		_textLabel.text = aTitle ? aTitle : SSToolkitLocalizedString(@"Loading...");

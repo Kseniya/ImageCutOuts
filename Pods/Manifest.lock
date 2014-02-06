@@ -1,5 +1,5 @@
 PODS:
-  - Facebook-iOS-SDK (3.11.1)
+  - Facebook-iOS-SDK (3.12.0)
   - ShareKit/Core (2.5.3):
     - ShareKit/NoARC
     - ShareKit/Reachability
@@ -12,6 +12,8 @@ PODS:
     - ShareKit/Core
   - ShareKit/NoARC (2.5.3)
   - ShareKit/Reachability (2.5.3)
+  - ShareKit/Tumblr (2.5.3):
+    - ShareKit/Core
   - ShareKit/Twitter (2.5.3):
     - ShareKit/Core
   - ShareKit/Vkontakte (2.5.3):
@@ -22,11 +24,12 @@ PODS:
 DEPENDENCIES:
   - ShareKit/Facebook
   - ShareKit/Instagram
+  - ShareKit/Tumblr
   - ShareKit/Twitter
   - ShareKit/Vkontakte
 
 SPEC CHECKSUMS:
-  Facebook-iOS-SDK: 42a1de39170b858d675c2453d8aace55c51be2bb
+  Facebook-iOS-SDK: c09f7d80db5c48170ff834bc03ebe774c49d1f5b
   ShareKit: 1c6a9a552e751ad5c846d1c8466db659b9b9668f
   SSKeychain: ffa1a79eb716d9ed1ca184fb0cf218087ca28486
   SSToolkit: 689acaedac79c2079e492e528a55bcb5db9d98c4
