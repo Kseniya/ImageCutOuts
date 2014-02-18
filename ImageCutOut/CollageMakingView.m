@@ -8,8 +8,9 @@
 
 #import "CollageMakingView.h"
 #import "CollagePiece.h"
+#import "UIScrollView+ZoomableImage.h"
 
-@interface CollageMakingView ()
+@interface CollageMakingView () <UIScrollViewDelegate>
 
 @property (nonatomic, strong) NSMutableArray* piecesArray;
 @property (nonatomic, strong) CollagePiece *selectedPiece;
@@ -30,9 +31,6 @@
 {
     if (self = [super initWithCoder:aDecoder])
     {
-        self.backgroundImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0.0, 0.0, self.frame.size.width, self.frame.size.height)];
-        self.backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
-        [self addSubview:self.backgroundImageView];
         [self addGestureRecognizers];
         
         self.piecesArray = [[NSMutableArray alloc]init];
@@ -45,9 +43,6 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundImageView = [[UIImageView alloc]initWithFrame:self.frame];
-        self.backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
-        [self addSubview:self.backgroundImageView];
         [self addGestureRecognizers];
         
         self.piecesArray = [[NSMutableArray alloc]init];
@@ -88,8 +83,24 @@
 
 - (void)setBackgroundImageViewWithImage:(UIImage*)image
 {
-    self.backgroundImageView.image = image;
+    self.imageScrollView = [UIScrollView zoomableWithImage:image frame:CGRectMake(0.0, 0.0, self.frame.size.width, self.frame.size.height)];
+    self.imageScrollView.delegate = self;
+    self.imageScrollView.backgroundColor = [UIColor colorWithRed:249.0/255.0 green:244.0/255.0 blue:223.0/255.0 alpha:1.0];
+    [self addSubview:self.imageScrollView];
+    self.imageScrollView.zoomScale = self.imageScrollView.minimumZoomScale;
+    
     NSLog(@"%f, %f", image.size.width, image.size.height);
+}
+
+
+- (UIView*)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+    // Return the view that you want to zoom
+    return self.imageScrollView.imageView;
+}
+
+- (void)scrollViewDidZoom:(UIScrollView *)scrollView {
+    // The scroll view has zoomed, so you need to re-center the contents
+    [self.imageScrollView centerScrollViewContents];
 }
 
 -(void)setSelectedPiece:(CollagePiece *)selectedPiece
@@ -124,7 +135,9 @@
 {
     CollagePiece *newPiece = [[CollagePiece alloc]initWithImage:image];
     newPiece.bounds = CGRectMake(0.0, 0.0, image.size.width, image.size.height);
-    newPiece.center = self.backgroundImageView.center;
+    newPiece.center = self.imageScrollView.center;
+    
+    [self.imageScrollView disableZoom];
     
     [self addSubview:newPiece];
     [self.piecesArray addObject:newPiece];
@@ -139,6 +152,11 @@
     }
     [self.selectedPiece removeFromSuperview];
     self.selectedPiece = nil;
+    
+    if (self.piecesArray.count == 0)
+    {
+        [self.imageScrollView enableZoom];
+    }
 }
 
 
@@ -184,7 +202,7 @@
                 CGPoint touchPoint = [recognizer locationInView:self];
                 self.selectedPiece.center = CGPointMake(touchPoint.x, touchPoint.y);
             }
-            
+    
             break;
         }
         case UIGestureRecognizerStateEnded:
@@ -301,15 +319,6 @@
         return NO;
     }
     return YES;
-}
-
--(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
-{
-    if ([otherGestureRecognizer isKindOfClass:[UISwipeGestureRecognizer class]])
-    {
-        return YES;
-    }
-    else return NO;
 }
 
 

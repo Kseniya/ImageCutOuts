@@ -20,7 +20,7 @@ typedef NS_ENUM(NSInteger, MenuAnimationType) {
 
 @property (assign, nonatomic) BOOL menuOpened;
 
-- (void)openCloseMenuAnimated:(BOOL)animated completion:(void (^)(MenuAnimationType animationType))completion;
+- (void)openCloseMenuWithCompletion:(void (^)(MenuAnimationType animationType))completion;
 
 @end
 

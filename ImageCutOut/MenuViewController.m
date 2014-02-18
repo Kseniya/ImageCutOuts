@@ -40,6 +40,7 @@ static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
     [self updateMenu];
 }
 
+
 -(void)updateMenu
 {
     self.allPiecesArray = [[ImagePieceReadWrite sharedClient] thumbnailsNames];
@@ -98,7 +99,7 @@ static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    [self.sideMenuViewController openCloseMenuAnimated:YES completion:^(MenuAnimationType animationType) {
+    [self.sideMenuViewController openCloseMenuWithCompletion:^(MenuAnimationType animationType) {
         
         if (animationType == MenuAnimationTypeClosed)
         {
@@ -120,6 +121,16 @@ static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
                 [self updateMenu];
             });
         }];
+    }
+}
+
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([[segue identifier] isEqualToString:@"CutModalView"])
+    {
+        //Close opened menu
+        [self.sideMenuViewController openCloseMenuWithCompletion:^(MenuAnimationType animationType) {}];
     }
 }
 

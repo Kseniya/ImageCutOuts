@@ -10,7 +10,7 @@
 
 @interface CollageMakingView : UIView <UIGestureRecognizerDelegate>
 
-@property (nonatomic, strong) UIImageView *backgroundImageView;
+@property (nonatomic, strong) UIScrollView *imageScrollView;
 
 - (void)addPieceWithImage:(UIImage*)image;
 - (void)setBackgroundImageViewWithImage:(UIImage*)image;

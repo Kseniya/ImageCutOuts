@@ -68,13 +68,13 @@
                                                                                           target:shareView
                                                                                           action:@selector(removeView)];
     navigationItem.title = @"Share";
-    
+    [view addSubview:shareView];
 
     //scale to 0 to prepare for zoom animation
     tableView.transform = CGAffineTransformMakeScale(0.0, 0.0);
     
     //Blur view crossdisolve animation
-    [UIView transitionWithView:view duration:0.3
+    [UIView transitionWithView:view duration:0.2
                        options:UIViewAnimationOptionTransitionCrossDissolve
                     animations:^ {
                         [view addSubview:shareView];
@@ -83,7 +83,7 @@
     
     
     //UITableView zoom with bounce animation
-    [UIView animateWithDuration:0.3/2 delay:0.3 options:UIViewAnimationOptionBeginFromCurrentState
+    [UIView animateWithDuration:0.3/2 delay:0.1 options:UIViewAnimationOptionBeginFromCurrentState
                      animations:^{
                          tableView.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1.1, 1.1);
                      } completion:^(BOOL finished) {

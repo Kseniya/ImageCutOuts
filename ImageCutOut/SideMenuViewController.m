@@ -75,7 +75,7 @@
 }
 
 
-- (void)openCloseMenuAnimated:(BOOL)animated completion:(void (^)(MenuAnimationType))completion
+- (void)openCloseMenuWithCompletion:(void (^)(MenuAnimationType))completion
 {
     [self animateMenuWithDuration:OPEN_DURATION completion:completion];
 }
@@ -99,6 +99,7 @@
     [UIView animateWithDuration:duration delay:0.0f options:UIViewAnimationOptionBeginFromCurrentState|UIViewAnimationOptionAllowUserInteraction animations:^
      {
          self.mainView.frame = CGRectMake(OPEN_OFFSET, 0.0f, self.mainView.frame.size.width, self.mainView.frame.size.height);
+
      }
                      completion:^(BOOL finished)
      {

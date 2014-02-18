@@ -108,7 +108,7 @@
 
 - (IBAction)menuButtonPressed:(id)sender
 {
-    [self.sideMenuViewController openCloseMenuAnimated:YES completion:^(MenuAnimationType animationType) {
+    [self.sideMenuViewController openCloseMenuWithCompletion:^(MenuAnimationType animationType) {
         if (animationType == MenuAnimationTypeOpened)
         {
             NSLog(@"OPENED");
@@ -131,7 +131,6 @@
 {
     // Create the item to share
     SHKItem *item = [SHKItem image:[self.collageMakingView finalCollage] title:@"blablabla"];
-    
     //Show share view with options
     ShareView *view = [ShareView shareViewInView:self.view];
     view.item = item;
@@ -179,7 +178,7 @@
     [self dismissViewControllerAnimated:YES completion:NULL];
     self.imagePickerController = nil;
     
-    //Enable touch on collageMakingViee and enable save and menu buttons.
+    //Enable touch on collageMakingView and enable save and menu buttons.
     self.collageMakingView.userInteractionEnabled = YES;
     self.navigationBar.hidden = NO;
 }

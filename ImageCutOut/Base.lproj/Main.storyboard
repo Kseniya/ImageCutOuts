@@ -74,7 +74,7 @@
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <connections>
-                                        <segue destination="vXZ-lx-hvc" kind="modal" id="f4Q-lt-4Wk"/>
+                                        <segue destination="vXZ-lx-hvc" kind="modal" identifier="CutModalView" id="f4Q-lt-4Wk"/>
                                     </connections>
                                 </button>
                             </subviews>
