@@ -17,20 +17,9 @@
 @property (strong, nonatomic) IBOutlet UIView *mainView;
 @property (strong, nonatomic) IBOutlet UIView *menuView;
 
-
 @end
 
 @implementation SideMenuViewController
-
-
-- (id)initWithCoder:(NSCoder *)aDecoder
-{
-    self = [super initWithCoder:aDecoder];
-    if (self) {
-        
-    }
-    return self;
-}
 
 - (void)viewDidAppear:(BOOL)animated
 {
@@ -52,10 +41,6 @@
 	self.mainView.layer.shadowOpacity = 1.0f;
 	self.mainView.layer.shadowRadius = 2.5f;
 	self.mainView.layer.shadowPath = shadowPath.CGPath;
-    
-    UISwipeGestureRecognizer *swipeRecognizer = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipeGesture:)];
-    swipeRecognizer.direction = UISwipeGestureRecognizerDirectionLeft;
-    [self.mainView addGestureRecognizer:swipeRecognizer];
     
     //starting position, menu closed
     self.menuOpened = NO;
@@ -135,18 +120,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
--(void)handleSwipeGesture:(UIPanGestureRecognizer*)recognizer
-{
-    if (self.menuOpened)
-    {
-        [self closeAnimationWithDuration:OPEN_DURATION completion:^(MenuAnimationType animationType) {
-            NSLog(@"Closed");
-        }];
-    }
-}
-
 
 
 @end

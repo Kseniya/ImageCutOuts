@@ -24,7 +24,7 @@ NSString * const kZoomableImageViewKey = @"kZoomableImageView";
     [scrollView addSubview:scrollView.imageView];
     
     [scrollView centerScrollViewContents];
-    [scrollView enableZoom];
+    [scrollView setUpMaxMinZoom];
     
     return scrollView;
 }
@@ -59,8 +59,7 @@ NSString * const kZoomableImageViewKey = @"kZoomableImageView";
     self.imageView.frame = contentsFrame;
 }
 
-
--(void)enableZoom
+-(void)setUpMaxMinZoom
 {
     self.contentSize = self.imageView.image.size;
     
@@ -71,15 +70,16 @@ NSString * const kZoomableImageViewKey = @"kZoomableImageView";
     
     self.minimumZoomScale = minScale;
     self.maximumZoomScale = 1.0f;
-    
+}
+
+-(void)enableZoom
+{
     self.scrollEnabled = YES;
 }
 
 -(void)disableZoom
 {
     self.scrollEnabled = NO;
-    self.maximumZoomScale = 1.0;
-    self.minimumZoomScale = 1.0;
 }
 
 @end

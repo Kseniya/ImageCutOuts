@@ -94,6 +94,7 @@
 - (void)cutAndSaveImagePiece
 {
     [[ImagePieceReadWrite sharedClient] saveImageAndThumbnail:[self createPieceImage].CGImage completion:^(BOOL success) {
+        
         dispatch_async(dispatch_get_main_queue(), ^{
             if (success)
             {

@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CollageMakingView.h"
 
 @interface CollageViewController : UIViewController 
 
+@property (nonatomic) IBOutlet CollageMakingView *collageMakingView;
+
 - (void) addPieceToCollage:(UIImage*)image;
+- (void)setBackgroundImageViewWithImage:(UIImage*)image;
 
 @end

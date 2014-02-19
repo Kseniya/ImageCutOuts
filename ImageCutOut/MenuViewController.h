@@ -2,14 +2,12 @@
 //  MenuViewController.h
 //  ImageCutOut
 //
-//  Created by Kseniya Kalyuk Zito on 1/20/14.
+//  Created by Kseniya Kalyuk Zito on 2/18/14.
 //  Copyright (c) 2014 KZito. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface MenuViewController : UITableViewController
-
-- (void)updateMenu;
+@interface MenuViewController : UIViewController
 
 @end

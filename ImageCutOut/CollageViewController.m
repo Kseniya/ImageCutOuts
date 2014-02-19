@@ -8,29 +8,16 @@
 
 #import "CollageViewController.h"
 #import "SideMenuViewController.h"
-#import "CollageMakingView.h"
-#import "MenuViewController.h"
+#import "PiecesViewController.h"
 #import <ShareKit.h>
 #import <ShareKit/SHKShareMenu.h>
 #import "ShareView.h"
 
-@interface CollageViewController (ImagePickerDelegate) <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
-
-@end
 
 @interface CollageViewController ()
 
-@property (nonatomic) IBOutlet CollageMakingView *collageMakingView;
 @property (nonatomic) IBOutlet UINavigationBar *navigationBar;
 
-@property (nonatomic) IBOutlet UIButton *takePhotoBtn;
-@property (nonatomic) IBOutlet UIButton *selectPhotoBtn;
-
-@property (nonatomic, strong) UIImagePickerController *imagePickerController;
-
-
-- (IBAction)showImagePickerForPhotoPicker:(id)sender;
-- (IBAction)showImagePickerForCamera:(id)sender;
 - (IBAction)menuButtonPressed:(id)sender;
 - (IBAction)save:(id)sender;
 
@@ -50,7 +37,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self animateOpening];
+    
+    UISwipeGestureRecognizer *swipeRecognizer = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipeGesture:)];
+    swipeRecognizer.direction = UISwipeGestureRecognizerDirectionLeft;
+    [self.view addGestureRecognizer:swipeRecognizer];
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -58,50 +48,26 @@
     [super viewDidAppear:animated];
 }
 
--(void)animateOpening
-{
-    CABasicAnimation * animation = [CABasicAnimation animationWithKeyPath:@"position.x"];
-    [animation setFromValue:[NSNumber numberWithFloat:-self.takePhotoBtn.frame.size.width/2]];
-    [animation setToValue:[NSNumber numberWithFloat:self.takePhotoBtn.frame.size.width/2 - 20.0]];
-    [animation setDuration:0.5];
-    [animation setTimingFunction:[CAMediaTimingFunction functionWithControlPoints:.5 :1.4 :1 :1]];
-    [self.takePhotoBtn.layer addAnimation:animation forKey:@"takeButtonMoveIn"];
-    
-    CABasicAnimation * selectBtnAnimation = [CABasicAnimation animationWithKeyPath:@"position.x"];
-    [selectBtnAnimation setFromValue:[NSNumber numberWithFloat:self.view.frame.size.width + self.selectPhotoBtn.frame.size.width/2]];
-    [selectBtnAnimation setToValue:[NSNumber numberWithFloat:self.view.frame.size.width - self.selectPhotoBtn.frame.size.width/2 + 20.0]];
-    [selectBtnAnimation setDuration:0.5];
-    [selectBtnAnimation setTimingFunction:[CAMediaTimingFunction functionWithControlPoints:.5 :1.4 :1 :1]];
-    [self.selectPhotoBtn.layer addAnimation:selectBtnAnimation forKey:@"selectButtonMoveIn"];
-}
-
-
 - (void)addPieceToCollage:(UIImage *)image
 {
     [self.collageMakingView addPieceWithImage:image];
 }
 
-#pragma mark UIImagePicker
-
-- (IBAction)showImagePickerForCamera:(id)sender
+-(void)setBackgroundImageViewWithImage:(UIImage*)image
 {
-    [self showImagePickerForSourceType:UIImagePickerControllerSourceTypeCamera];
+    [self.collageMakingView setBackgroundImageViewWithImage:image];
 }
 
-- (IBAction)showImagePickerForPhotoPicker:(id)sender
+//Closing side menu
+-(void)handleSwipeGesture:(UISwipeGestureRecognizer*)recognizer
 {
-    [self showImagePickerForSourceType:UIImagePickerControllerSourceTypePhotoLibrary];
-}
-
-- (void)showImagePickerForSourceType:(UIImagePickerControllerSourceType)sourceType
-{
-    UIImagePickerController *imagePickerController = [[UIImagePickerController alloc] init];
-    imagePickerController.modalPresentationStyle = UIModalPresentationCurrentContext;
-    imagePickerController.sourceType = sourceType;
-    imagePickerController.delegate = self;
-    
-    self.imagePickerController = imagePickerController;
-    [self presentViewController:self.imagePickerController animated:YES completion:nil];
+    if (self.sideMenuViewController.menuOpened)
+    {
+        [self.sideMenuViewController openCloseMenuWithCompletion:^(MenuAnimationType animationType) {
+            NSLog(@"Closed");
+            self.collageMakingView.userInteractionEnabled = YES;
+        }];
+    }
 }
 
 #pragma mark Button Actions
@@ -112,18 +78,20 @@
         if (animationType == MenuAnimationTypeOpened)
         {
             NSLog(@"OPENED");
+            self.collageMakingView.userInteractionEnabled = NO;
         }
         else
         {
             NSLog(@"Closed");
+            self.collageMakingView.userInteractionEnabled = YES;
         }
     }];
     
     //Update Menu
-    if ([self.sideMenuViewController.menuViewController isKindOfClass:[MenuViewController class]])
+    if ([self.sideMenuViewController.menuViewController isKindOfClass:[PiecesViewController class]])
     {
-        MenuViewController *menuViewController = (MenuViewController *)self.sideMenuViewController.menuViewController;
-        [menuViewController updateMenu];
+        PiecesViewController *piecesViewController = (PiecesViewController *)self.sideMenuViewController.menuViewController;
+        [piecesViewController updateMenu];
     }
 }
 
@@ -168,24 +136,3 @@
 @end
 
 
-@implementation CollageViewController (ImagePickerDelegate)
-
-#pragma mark - UIImagePickerControllerDelegate
-
-- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
-{
-    [self.collageMakingView setBackgroundImageViewWithImage:[info valueForKey:UIImagePickerControllerOriginalImage]];
-    [self dismissViewControllerAnimated:YES completion:NULL];
-    self.imagePickerController = nil;
-    
-    //Enable touch on collageMakingView and enable save and menu buttons.
-    self.collageMakingView.userInteractionEnabled = YES;
-    self.navigationBar.hidden = NO;
-}
-
-- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
-{
-    [self dismissViewControllerAnimated:YES completion:NULL];
-}
-
-@end

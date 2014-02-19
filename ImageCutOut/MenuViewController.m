@@ -2,21 +2,28 @@
 //  MenuViewController.m
 //  ImageCutOut
 //
-//  Created by Kseniya Kalyuk Zito on 1/20/14.
+//  Created by Kseniya Kalyuk Zito on 2/18/14.
 //  Copyright (c) 2014 KZito. All rights reserved.
 //
 
 #import "MenuViewController.h"
-#import "ImagePieceReadWrite.h"
-#import "SideMenuViewController.h"
 #import "CollageViewController.h"
+#import "SideMenuViewController.h"
+#import "PiecesViewController.h"
 
-static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
+@interface MenuViewController (ImagePickerDelegate) <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+
+@end
 
 @interface MenuViewController ()
 
-@property (nonatomic) IBOutlet UILabel *noPiecesLbl;
-@property (nonatomic, strong) NSArray *allPiecesArray;
+@property (nonatomic) IBOutlet UIButton *takePhotoBtn;
+@property (nonatomic) IBOutlet UIButton *selectPhotoBtn;
+@property (nonatomic, strong) UIImagePickerController *imagePickerController;
+
+- (IBAction)showImagePickerForPhotoPicker:(id)sender;
+- (IBAction)showImagePickerForCamera:(id)sender;
+
 
 @end
 
@@ -34,104 +41,48 @@ static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-	[self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kMenuTableViewCellIdentifier];
-    
-    [self updateMenu];
+	[self animateOpening];
 }
 
 
--(void)updateMenu
+-(void)animateOpening
 {
-    self.allPiecesArray = [[ImagePieceReadWrite sharedClient] thumbnailsNames];
+    CABasicAnimation * animation = [CABasicAnimation animationWithKeyPath:@"position.x"];
+    [animation setFromValue:[NSNumber numberWithFloat:-self.takePhotoBtn.frame.size.width/2]];
+    [animation setToValue:[NSNumber numberWithFloat:self.takePhotoBtn.frame.size.width/2 - 20.0]];
+    [animation setDuration:0.5];
+    [animation setTimingFunction:[CAMediaTimingFunction functionWithControlPoints:.5 :1.4 :1 :1]];
+    [self.takePhotoBtn.layer addAnimation:animation forKey:@"takeButtonMoveIn"];
     
-    //if pieces available show list of them in table view, if not show label saying that there are no pieces
-    
-    [self.tableView reloadData];
-    
-    if ((self.allPiecesArray)&&(self.allPiecesArray.count >0))
-    {
-        self.noPiecesLbl.hidden = YES;
-    }
-    else
-    {
-        self.noPiecesLbl.hidden = NO;
-    }
+    CABasicAnimation * selectBtnAnimation = [CABasicAnimation animationWithKeyPath:@"position.x"];
+    [selectBtnAnimation setFromValue:[NSNumber numberWithFloat:self.view.frame.size.width + self.selectPhotoBtn.frame.size.width/2]];
+    [selectBtnAnimation setToValue:[NSNumber numberWithFloat:self.view.frame.size.width - self.selectPhotoBtn.frame.size.width/2 + 20.0]];
+    [selectBtnAnimation setDuration:0.5];
+    [selectBtnAnimation setTimingFunction:[CAMediaTimingFunction functionWithControlPoints:.5 :1.4 :1 :1]];
+    [self.selectPhotoBtn.layer addAnimation:selectBtnAnimation forKey:@"selectButtonMoveIn"];
 }
 
+#pragma mark UIImagePicker
 
-- (UIImage*)pieceThumbnailAtIndex:(NSInteger)index
+- (IBAction)showImagePickerForCamera:(id)sender
 {
-    return [[ImagePieceReadWrite sharedClient] thumbnailAtIndex:index];
+    [self showImagePickerForSourceType:UIImagePickerControllerSourceTypeCamera];
 }
 
-
-#pragma mark UITableViewDataSourse
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+- (IBAction)showImagePickerForPhotoPicker:(id)sender
 {
-    return self.allPiecesArray.count;
+    [self showImagePickerForSourceType:UIImagePickerControllerSourceTypePhotoLibrary];
 }
 
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+- (void)showImagePickerForSourceType:(UIImagePickerControllerSourceType)sourceType
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kMenuTableViewCellIdentifier forIndexPath:indexPath];
+    UIImagePickerController *imagePickerController = [[UIImagePickerController alloc] init];
+    imagePickerController.modalPresentationStyle = UIModalPresentationCurrentContext;
+    imagePickerController.sourceType = sourceType;
+    imagePickerController.delegate = self;
     
-    UIImage *pieceImage = [self pieceThumbnailAtIndex:indexPath.row];
-    cell.backgroundColor = [UIColor clearColor];
-    cell.imageView.image = pieceImage;
-    cell.imageView.bounds = CGRectMake(0.0, 0.0, pieceImage.size.width, pieceImage.size.height);
-        
-    return cell;
-}
-
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-   
-    UIImage *pieceImage = [self pieceThumbnailAtIndex:indexPath.row];
-    
-    return pieceImage.size.height + 20.0;
-}
-
-#pragma mark UITableViewDelegate
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    
-    [self.sideMenuViewController openCloseMenuWithCompletion:^(MenuAnimationType animationType) {
-        
-        if (animationType == MenuAnimationTypeClosed)
-        {
-            //Add selected piece on collage view
-            if ([self.sideMenuViewController.mainViewController isKindOfClass:[CollageViewController class]])
-            {
-                CollageViewController *collageViewController = (CollageViewController *)self.sideMenuViewController.mainViewController;
-                [collageViewController addPieceToCollage:[[ImagePieceReadWrite sharedClient] imageAtIndex:indexPath.row]];
-            }
-        }
-    }];
-}
-
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        
-        [[ImagePieceReadWrite sharedClient] deleteImageAndThumbnailAtIndex:indexPath.row completion:^(BOOL success) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [self updateMenu];
-            });
-        }];
-    }
-}
-
-
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if([[segue identifier] isEqualToString:@"CutModalView"])
-    {
-        //Close opened menu
-        [self.sideMenuViewController openCloseMenuWithCompletion:^(MenuAnimationType animationType) {}];
-    }
+    self.imagePickerController = imagePickerController;
+    [self presentViewController:self.imagePickerController animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -141,3 +92,30 @@ static NSString * const kMenuTableViewCellIdentifier = @"menuCell";
 }
 
 @end
+
+@implementation MenuViewController (ImagePickerDelegate)
+
+#pragma mark - UIImagePickerControllerDelegate
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+    [self dismissViewControllerAnimated:NO completion:NULL];
+    
+    SideMenuViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"SideMenuViewController"];
+    
+    [self presentViewController:viewController animated:NO completion:^{
+        
+        CollageViewController *collageController = (CollageViewController*) viewController.mainViewController;
+        [collageController setBackgroundImageViewWithImage:[info valueForKey:UIImagePickerControllerOriginalImage]];
+    }];
+    
+    self.imagePickerController = nil;
+}
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+{
+    [self dismissViewControllerAnimated:YES completion:NULL];
+}
+
+@end
+
